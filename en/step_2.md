@@ -1,3 +1,3 @@
-## Step title
+## Making your buggy
 
 + Step content...

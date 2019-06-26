@@ -1,19 +1,21 @@
 ## Introduction
 
-You will use your design,making and coding skills to build a robot buggy with DC motors controlled by a Crumble robotics board.
+You will use your design, making and coding skills to build a robot buggy with DC motors controlled by a Crumble robotics board.
 
 ### What you will make
 
---- no-print ---
-Add instructions for using the embedded content here.
+You will make a buggy to be controlled by your coding.
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
+--- no-print ---
+
+![Completed Crumble buggy](images/completedBuggy.png)
+
 --- /no-print ---
 
 --- print-only ---
-![Complete project](images/showcase_static.png)
+
+![Completed Crumble buggy](images/completedBuggy.png)
+
 --- /print-only ---
 
 --- collapse ---
@@ -22,13 +24,20 @@ title: What you will need
 ---
 ### Hardware
 
-+ Describe hardware here
++ A PC, Mac or Chromebook with Crumble software installed and a USB port
+
+Note: All components except DC motors are included in the Crumble starter kit but can also be bought separately.
+
++ A Crumble controller
++ A 3xAA battery pack
++ Crocodile leads
++ 2 DC mini motors
++ Materials to make your buggy, e.g. a small box, food container, bottle or cardboard
++ tools to make your buggy, e.g. glue or tape, and scissors
 
 ### Software
 
-+ Scratch 2.0 (either [online](http://rpf.io/scratchon) or [offline](http://rpf.io/scratchoff))
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
++ [Crumble software](https://redfernelectronics.co.uk/crumble-software/){:target="_blank"}
 
 ### Downloads
 
