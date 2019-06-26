@@ -41,7 +41,7 @@ Note: All components except DC motors are included in the Crumble starter kit bu
 
 ### Downloads
 
-+ [rpf.io/project-name-go](http://rpf.io/project-name-go){:target="_blank"}
++ [rpf.io/project-name-go](http://rpf.io/build-crumble-motor-buggy-go){:target="_blank"}
 
 --- /collapse ---
 
@@ -50,8 +50,9 @@ Note: All components except DC motors are included in the Crumble starter kit bu
 title: What you will learn
 ---
 
-+ Two or three learning objectives
-+ ...should go here
++ How to connect DC motors to a Crumble controller board
++ How to coordinate two motors to control direction
++ How to code a pre-programmed buggy 'journey'
 
 --- /collapse ---
 
@@ -60,8 +61,8 @@ title: What you will learn
 title: Additional information for educators
 ---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/project-name/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/build-crumble-motor-buggy/print){:target="_blank"}.
 
-[Here is a link to the resources for this project](http://rpf.io/project-name-go).
+[Here is a link to the resources for this project](http://rpf.io/build-crumble-motor-buggy-go).
 
 --- /collapse ---
