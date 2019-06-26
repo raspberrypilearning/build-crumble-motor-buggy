@@ -1,6 +1,6 @@
 ## Introduction
 
-Add project description here. What will learners be making?
+You will use your design,making and coding skills to build a robot buggy with DC motors controlled by a Crumble robotics board.
 
 ### What you will make
 
