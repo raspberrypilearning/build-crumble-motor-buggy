@@ -22,7 +22,7 @@ If your chassis is not very strong or is quite flexible, it is worth sticking a 
 
 
 
-![A cardboard box for a chassis](images/makeBuggy_chassis.png)
+![Fixing the first motor](images/makeBuggy_firstMotor.png)
 
 --- /task ---
 
@@ -30,7 +30,7 @@ If your chassis is not very strong or is quite flexible, it is worth sticking a 
 
 
 
-![A cardboard box for a chassis](images/makeBuggy_chassis.png)
+![Aligning motors](images/makeBuggy_motorAlignment.png)
 
 --- /task ---
 
@@ -38,7 +38,7 @@ If your chassis is not very strong or is quite flexible, it is worth sticking a 
 
 
 
-![A cardboard box for a chassis](images/makeBuggy_chassis.png)
+![Motors project from chassis to allow wheels to fit in place](images/makeBuggy_motorsStickOut.png)
 
 --- /task ---
 
@@ -46,7 +46,7 @@ If your chassis is not very strong or is quite flexible, it is worth sticking a 
 
 
 
-![A cardboard box for a chassis](images/makeBuggy_chassis.png)
+![Deodorant roller](images/makeBuggy_deodorant.png)
 
 --- /task ---
 
@@ -54,7 +54,7 @@ If your chassis is not very strong or is quite flexible, it is worth sticking a 
 
 
 
-![A cardboard box for a chassis](images/makeBuggy_chassis.png)
+![Level roller ball and wheels](images/makeBuggy_rollerBallLevel.png)
 
 --- /task ---
 
@@ -62,7 +62,7 @@ If your chassis is not very strong or is quite flexible, it is worth sticking a 
 
 
 
-![A cardboard box for a chassis](images/makeBuggy_chassis.png)
+![A cardboard base for the roller ball](images/makeBuggy_rollerBallBase.png)
 
 --- /task ---
 
@@ -70,6 +70,6 @@ If your chassis is not very strong or is quite flexible, it is worth sticking a 
 
 
 
-![A cardboard box for a chassis](images/makeBuggy_chassis.png)
+![Fixing roller ball in place](images/makeBuggy_rollerBall.png)
 
 --- /task ---
