@@ -31,7 +31,7 @@ Note: All components except DC motors are included in the Crumble starter kit bu
 + A Crumble controller
 + A 3xAA battery pack
 + Crocodile leads
-+ 2 DC mini gear motors
++ 2 DC mini gear motors with wheels
 
 + Materials to make your buggy, e.g. a small box, food container, bottle or cardboard
 + Tools to make your buggy, e.g. glue or tape, and scissors
