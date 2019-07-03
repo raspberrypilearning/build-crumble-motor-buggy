@@ -7,5 +7,6 @@ copyedit: false
 last_tested: "2019-06-26"
 steps:
   - title: Introduction
+  - title: What does a motor buggy look like?
   - title: Making your buggy
   - title: Test code for motors

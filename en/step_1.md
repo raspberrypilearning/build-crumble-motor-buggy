@@ -32,8 +32,9 @@ Note: All components except DC motors are included in the Crumble starter kit bu
 + A 3xAA battery pack
 + Crocodile leads
 + 2 DC mini motors
+
 + Materials to make your buggy, e.g. a small box, food container, bottle or cardboard
-+ tools to make your buggy, e.g. glue or tape, and scissors
++ Tools to make your buggy, e.g. glue or tape, and scissors
 
 ### Software
 
@@ -41,7 +42,7 @@ Note: All components except DC motors are included in the Crumble starter kit bu
 
 ### Downloads
 
-+ [rpf.io/project-name-go](http://rpf.io/build-crumble-motor-buggy-go){:target="_blank"}
++ [rpf.io/build-crumble-motor-buggy-go](http://rpf.io/build-crumble-motor-buggy-go){:target="_blank"}
 
 --- /collapse ---
 
