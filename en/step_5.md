@@ -90,16 +90,73 @@ Run your last code, `motor 1 REVERSE`{:class="crumbleinputoutput"}, again to see
 
 --- no-print ---
 
-![Running test code 2 again](images/testCode_runningTestCode1.gif)
+![Running test code 2 again](images/testCode_runningTestCode2b.gif)
 
 --- /no-print ---
 
 --- print-only ---
 
-![Running test code 2 again](images/testCode_runningTestCode1.png)
+![Running test code 2 again](images/testCode_runningTestCode2b.png)
 
 --- /print-only ---
 
-Great. Now the right motor does exactly as it is told to do.
+--- /task ---
+
+Great. Now that the right motor does exactly as it is told to do, it is time to do the same for the left-hand gear motor.
+
+--- task ---
+
+Toggle the `1`{:class="crumbleinputoutput"} in the both `motor`{:class="crumbleinputoutput"} blocks so that they read, `motor 2`{:class="crumbleinputoutput"} so that we can test the left gear motor.
+
+Then toggle the `REVERSE`{:class="crumbleinputoutput"} in the first `motor`{:class="crumbleinputoutput"} block until the block reads, `motor 2 FORWARD at 75%`{:class="crumbleinputoutput"}.
+
+![Test code 3 for motor output 2](images/testCode_testCode3.png)
+
+Run the code.
+
+--- no-print ---
+
+![Running test code 3](images/testCode_runningTestCode3.gif)
+
+--- /no-print ---
+
+--- print-only ---
+
+![Running test code 3](images/testCode_runningTestCode3.png)
+
+--- /print-only ---
+
+--- /task ---
+
+Since the left-hand gear motor goes forward when programmed to go `FORWARD`{:class="crumbleinputoutput"}, there is no need to reverse the posrity.
+
+We now know that in this example project:
+
++ Motor 1 output forward makes the right-hand wheel go forwards.
++ Motor 1 output reverse makes the right-hand wheel go backwards.
++ Motor 2 output forward makes the left-hand wheel go forwards.
++ Motor 2 output reverse makes the left-hand wheel go backwards.
+
+Let's write a little code to check this all together.
+
+--- task ---
+
+Duplicate `motor`{:class="crumbleinputoutput"} and `wait`{:class="crumblecontrol"} blocks as needed to write code telling `motors 1 and 2`{:class="crumbleinputoutput"} to go `forward`{:class="crumbleinputoutput"} `wait for 0.3 seconds`{:class="crumblecontrol"}, then `both motors`{:class="crumbleinputoutput"} go `backwards`{:class="crumbleinputoutput"}, `wait`{:class="crumblecontrol"} again before `both motors stop`{:class="crumbleinputoutput"}.
+
+![Test code 4 for both motors](images/testCode_testCode4.png)
+
+Run the code.
+
+--- no-print ---
+
+![Running test code 3](images/testCode_runningTestCode4.gif)
+
+--- /no-print ---
+
+--- print-only ---
+
+![Running test code 3](images/testCode_runningTestCode4.png)
+
+--- /print-only ---
 
 --- /task ---
