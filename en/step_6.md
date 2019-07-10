@@ -40,4 +40,21 @@ Lastly, add two `motor`{:class="crumbleinputoutput"} blocks telling the motors t
 
 ![Turning both motors on, changing speed twice and stopping code](images/rightLeft_speedControlCodeStep4.png)
 
+Run your code and see the buggy run at three different speeds.
+
+If the change is too quick, make longer waiting times and run it again.
+
 --- /task ---
+
+--- no-print ---
+
+![Running speed control code](images/rightLeft_runningSpeedControlCode.gif)
+
+--- /no-print ---
+
+--- print-only ---
+
+![Running speed control code](images/rightLeft_runningSpeedControlCode.png)
+
+--- /print-only ---
+
