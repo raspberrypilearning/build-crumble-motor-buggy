@@ -76,24 +76,5 @@ Now run the code to check the motor runs in the oppositie direction, i.e. forwar
 
 --- /print-only ---
 
---- /task ---oggle the `FORWARD`{:class="crumbleinputoutput"} until the block reads, `motor 1 STOP`{:class="crumbleinputoutput"}.
-
-Finally, from the `Control`{:class="crumblecontrol"} blocks menu, pick a `wait 100 milliseconds`{:class="crumblecontrol"} block and adjust the time to `wait 300 milliseconds`{:class="crumblecontrol"}.
-
-![Test code for motor output 1](images/testCode_testCode1.png)
-
-When you run the code, the right-hand motor (in this example) should either move forwards or backwards.
-
---- no-print ---
-
-![Running test code 2](images/testCode_runningTestCode2.gif)
-
---- /no-print ---
-
---- print-only ---
-
-![Running test code 2](images/testCode_runningTestCode2.png)
-
---- /print-only ---
-
 --- /task ---
+
