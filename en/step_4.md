@@ -38,9 +38,27 @@ Connect a crocodile clip to each of the positive and negative terminals of the m
 
 Connect the other end of these crocodile clips to the positive and negative wires (or terminals) of one of the gear motor. At this stage it really doesn't matter which gear motor you connect it to, just make sure that you have the positve and negative wires both coming from the same motor.
 
-![Positive and negative Crumble to motor 1](images/makeBuggy_crumbleMotor1input.png)
+In this example, the Crumble motor 1 connectors are connected to the right-hand gear motor.
+
+![Positive and negative Crumble to the right-hand motor](images/makeBuggy_crumbleMotorRInput.png)
 
 --- /task ---
+
+Note: I have attached the right-hand gear motor wires to the right-side of the chassis. In this case by threading the wire through the side wall and back in. 
+
+![Right-Hand motor wires threaded through chassis](images/makeBuggy_rightWiresInChassis.png)
+
+This has a few benefits:
+
++ It makes it clear which wires are for which motor
++ It keeps the wires, and croc clips attached in position and out of the way
++ It helps to keep the exposed metal parts of wires and croc clips away from each other so they don't touch!
+
+On the left-hand side I have taped the connections with electrical tape to show an alternative way to stop the exposed metal parts of the wires and croc clips touching.
+
+![Left-Hand motor wires taped to croc clips](images/makeBuggy_leftWiresTaped.png)
+
+Choose either of these or any other method that works for you and the materials you have.
 
 Now we do the same for the second motor.
 
@@ -56,7 +74,7 @@ Connect a crocodile clip to each of the positive and negative terminals of the m
 
 Connect the other end of this second set of crocodile clips to the positive and negative wires (or terminals) of one of the second gear motor. 
 
-![Positive and negative Crumble to motor 2](images/makeBuggy_crumbleMotor2input.png)
+![Positive and negative Crumble to motor 2](images/makeBuggy_crumbleMotorLInput.png)
 
 --- /task ---
 
