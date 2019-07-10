@@ -42,7 +42,7 @@ In this example, the Crumble motor 1 connectors are connected to the right-hand 
 
 ![Positive and negative Crumble to the right-hand motor](images/makeBuggy_crumbleMotorRInput.png)
 
-
+Here's how that might look in the real world.
 
 ![Positive and negative Crumble to right-hand motor in buggy](images/makeBuggy_crumbleMotorRInputReal.png)
 
@@ -91,6 +91,7 @@ Here's how it might look in your motor buggy.
 Now you just need to find a way to arrange all of the components inside or around your motor buggy so that it can move around. You need to find a space for the Crumble controller board, the battery pack and all the wires.
 
 Once your buggy is fully coded, the USB cable can be disconnected so that your robot motor buggy can roam freely. Make sure you can easily get to the USB scoket so that you can change the code whenever you want to.
+gitrange69
 
 ![Arranging the Crumble and battery pack](images/makeBuggy_arrangingComponents.png)
 
