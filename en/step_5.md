@@ -160,3 +160,5 @@ Run the code.
 --- /print-only ---
 
 --- /task ---
+
+You now have all the information you need to write code and control what your motor buggy does!
