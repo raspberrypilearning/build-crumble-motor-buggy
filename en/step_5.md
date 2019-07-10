@@ -50,5 +50,50 @@ When you run the code, the right-hand motor (in this example) should either move
 
 --- /print-only ---
 
+--- /task ---
+
+Since motor 1 output forward makes the right motor go backwards, programming the motor 1 output to go backwards must make the right motor go forwards. Let check that to make sure.
+
+--- task ---
+
+--- task ---
+
+Toggle the `FORWARD`{:class="crumbleinputoutput"} in the first `motor`{:class="crumbleinputoutput"} block until the block reads, `motor 1 REVERSE at 75%`{:class="crumbleinputoutput"}.
+
+![Test code 2 for motor output 1](images/testCode_testCode2.png)
+
+Now run the code to check the motor runs in the oppositie direction, i.e. forwards.
+
+--- no-print ---
+
+![Running test code 2](images/testCode_runningTestCode2.gif)
+
+--- /no-print ---
+
+--- print-only ---
+
+![Running test code 2](images/testCode_runningTestCode2.png)
+
+--- /print-only ---
+
+--- /task ---oggle the `FORWARD`{:class="crumbleinputoutput"} until the block reads, `motor 1 STOP`{:class="crumbleinputoutput"}.
+
+Finally, from the `Control`{:class="crumblecontrol"} blocks menu, pick a `wait 100 milliseconds`{:class="crumblecontrol"} block and adjust the time to `wait 300 milliseconds`{:class="crumblecontrol"}.
+
+![Test code for motor output 1](images/testCode_testCode1.png)
+
+When you run the code, the right-hand motor (in this example) should either move forwards or backwards.
+
+--- no-print ---
+
+![Running test code 2](images/testCode_runningTestCode2.gif)
+
+--- /no-print ---
+
+--- print-only ---
+
+![Running test code 2](images/testCode_runningTestCode2.png)
+
+--- /print-only ---
 
 --- /task ---
