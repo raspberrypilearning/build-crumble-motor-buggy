@@ -75,3 +75,31 @@ Now run the code to check the motor runs in the oppositie direction, i.e. forwar
 --- /print-only ---
 
 --- /task ---
+
+As long as I remember that `FORWARD`{:class="crumbleinputoutput"} means backwards for the right-hand motor, my code should work out fine but it would be much easier for me if `FORWARD`{:class="crumbleinputoutput"} really did mean forwards.
+
+Whether the motors goes one way or another is simply a matter of polarity. In other words, it is a matter of which way round the positive and negative wires are connected. in the case of the motors this is not important, so in this example I am going to switch the positive and negative wires around. I could do this anywhere in the circuit but I'll do where the croc clips meet the gear motor wires.
+
+![Reversing the right motor polarity](images/testCode_crumbleMotorRReversePolarity.png)
+
+WARNING: It is safe to reverse the polarity on these gear motors but in other situations reversing the positive and negative polarity can damage components.
+
+--- task ---
+
+Run your last code, `motor 1 REVERSE`{:class="crumbleinputoutput"}, again to see if everything works to plan and the motor now runs in reverse when programmed to do so.
+
+--- no-print ---
+
+![Running test code 2 again](images/testCode_runningTestCode1.gif)
+
+--- /no-print ---
+
+--- print-only ---
+
+![Running test code 2 again](images/testCode_runningTestCode1.png)
+
+--- /print-only ---
+
+Great. Now the right motor does exactly as it is told to do.
+
+--- /task ---
