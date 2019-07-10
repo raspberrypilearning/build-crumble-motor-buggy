@@ -56,8 +56,6 @@ Since motor 1 output forward makes the right motor go backwards, programming the
 
 --- task ---
 
---- task ---
-
 Toggle the `FORWARD`{:class="crumbleinputoutput"} in the first `motor`{:class="crumbleinputoutput"} block until the block reads, `motor 1 REVERSE at 75%`{:class="crumbleinputoutput"}.
 
 ![Test code 2 for motor output 1](images/testCode_testCode2.png)
