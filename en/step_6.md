@@ -134,6 +134,8 @@ Now, unplug the USB cable and get back on the floor, or wherever you have enough
 
 --- /task ---
 
+So, as you can see, it turns out that the left-motor going forwards makes the buggy turn to the right.
+
 --- task ---
 
 Now, put your buggy on another sheet of paper. Imagine the left-hand motor turning forwards and the right-hand motor turning in reverse. 
@@ -171,3 +173,33 @@ Now, unplug the USB cable and turn on the battery pack to run the code.
 --- /print-only ---
 
 --- /task ---
+
+Having the right-motor turn in reverse at the same time as the left-hand motor going forwards makes the turn much sharper.The buggy will turn on the spot.
+
+To turn left, the motors will of course need to turn in the opposite directions. The right-hand motor will turn forwards while the left-hand motor turns in reverse.
+
+Let's try that out.
+
+--- task ---
+
+Connect your Crumble (remembering to turn the battery pack off) and change your code to `motor 1 forward`{:class="crumbleinputoutput"} and `motor 2 reverse`{:class="crumbleinputoutput"}.
+
+![Code to turn motor 1 forwards, motor 2 backwards and then both off](images/speedAndSpins_m1ForwardM2BackwardsTurnCode.png)
+
+Run your code with the battery power off to transfer the changes to the Crumble controller, unplug the USB cable and turn on the battery pack to run the code to checkthat your buggy now turns to the left.
+
+--- no-print ---
+
+![Motor 1 forward and motor 2 backwards turn](images/speedAndSpins_m1ForwardM2BackwardsTurn.gif)
+
+--- /no-print ---
+
+--- print-only ---
+
+![Motor 1 forward and motor 2 backwards turn](images/speedAndSpins_m1ForwardM2BackwardsTurn.png)
+
+--- /print-only ---
+
+--- /task ---
+
+Now you know how to make your buggy go forwards, backwards, right and left, and how to control the speed.
