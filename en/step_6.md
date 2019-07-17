@@ -1,4 +1,4 @@
-## Forwards, backwards, right and left
+## Speed and spins
 
 We have already looked at how to make your motor buggy go forwards and backwards. Now we are going to look at controlling the speed as well as turning left and right.
 
@@ -58,5 +58,5 @@ If the change is too quick, make longer waiting times and run it again.
 
 --- /print-only ---
 
-### Right and left
+### Turning right and turning left
 
