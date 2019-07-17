@@ -42,7 +42,7 @@ The code below is correct for the example buggy. Your wait times and speeds migh
 
 ![There and back challenge code solution](images/thereAndBack_thereAndBackCode_Solution.png)
 
-Click the green 'play' button to see if it works as you expect.
+Click the green 'play' button to see if it works.
 
 --- /hint ---
 
