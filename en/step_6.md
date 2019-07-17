@@ -94,3 +94,80 @@ Find yourself a bit of space and turn the battery pack on to set your buggy in m
 
 ### Turning right and turning left
 
+You have already made your buggy go forwards and backwards but let's think about what the motors will have to do to turn right or left.
+
+If only the left-hand motor turned on and it went forwards, what would your buggy do?
+
+--- task ---
+
+Put your buggy on a sheet of paper. Imagine the left-hand motor turning forwards. 
+
+Draw an arrow to show where the wheel would go and try to imagine what this means the buggy would do.
+
+![Visualising a turn](images/speedAndSpins_visualisingTurn.png)
+
+--- /task ---
+
+--- task ---
+
+Make sure your battery pack is turned off and plug your Crumble back into your computer and write the code to make this simple turn happen.
+
+When the `program starts`{:class="crumblebasic"}, `wait 2 seconds`{:class="crumblecontrol"} to give yourself time to move your hand after turning the battery pack on, tell the left-hand motor(`motor 2`{:class="crumbleinputoutput"}) to go `forwards`{:class="crumbleinputoutput"}, `wait 1 second`{:class="crumblecontrol"} and turn `motor 2 off`{:class="crumbleinputoutput".
+
+![Code to turn motor 2 forwards and then off](images/speedAndSpins_motor2ForwardTurnCode.png)
+
+Check that the battey pack is still off and run your code to transfer the changes to the Crumble controller. Although the code has run, the motors will not turn because you turned the battery pack off. This is good because we don't want the buggy spinning round andthe cable getting twisted.
+
+Now, unplug the USB cable and get back on the floor, or wherever you have enough space, turn on the battery pack to run the code.
+
+--- no-print ---
+
+![Motor 2 forward turn](images/speedAndSpins_motor2ForwardTurn.gif)
+
+--- /no-print ---
+
+--- print-only ---
+
+![Motor 2 forward turn](images/speedAndSpins_motor2ForwardTurn.png)
+
+--- /print-only ---
+
+--- /task ---
+
+--- task ---
+
+Now, put your buggy on another sheet of paper. Imagine the left-hand motor turning forwards and the right-hand motor turning in reverse. 
+
+Draw arrows to show where the wheels would go and again, try to imagine what this means the buggy would do.
+
+![Visualising a turn](images/speedAndSpins_visualisingTurn2.png)
+
+--- /task ---
+
+--- task ---
+
+Just like before, turn your battery pack off and plug your Crumble back into your computer to write the code to make this two motor turn happen.
+
+After the `motor 2 forwards`{:class="crumbleinputoutput" block, add a `motor 1 reverse`{:class="crumbleinputoutput" block to tell the right-hand motor to go backwards.
+
+You will also need to turn `motor 1 off`{:class="crumbleinputoutput" after the `wait 1 second`{:class="crumblecontrol"}. Always remember to turn everything off at the end of your code... unless you want it running forever!
+
+![Code to turn motor 2 forwards, motor 1 backwards and then both off](images/speedAndSpins_m2ForwardM1BackwardsTurnCode.png)
+
+Run your code to transfer the changes to the Crumble controller. Again, the motors will not turn because you turned the battery pack off. Remember to check the battery pack is off whenever you want to transfer code without running it.
+
+Now, unplug the USB cable and turn on the battery pack to run the code.
+
+--- no-print ---
+
+![Motor 2 forward and motor 1 backwards turn](images/speedAndSpins_m2ForwardM1BackwardsTurn.gif)
+
+--- /no-print ---
+
+--- print-only ---
+
+![Motor 2 forward and motor 1 backwards turn](images/speedAndSpins_m2ForwardM1BackwardsTurn.png)
+
+--- /print-only ---
+
+--- /task ---
