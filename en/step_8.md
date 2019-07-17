@@ -44,9 +44,11 @@ Duplicate either of the `random 50 to 80`{:class="crumbleoperators"} blocks, pla
 
 --- /task ---
 
-This is a good time to test the code so far, but before we do that we need to add code to `stop`{:class="crumbleinputoutput"} the `motors`{:class="crumbleinputoutput"}.
+This is a good time to test the code so far, but before we do that we need to add code to `stop`{:class="crumbleinputoutput"} the `motors`{:class="crumbleinputoutput"} and a short `wait`{:class="crumblecontrol"} at the start of our code.
 
 --- task ---
+
+Add a `2 second wait`{:class="crumblecontrol"} at the start of the code.
 
 Get two `motor`{:class="crumbleinputoutput"} blocks and set `motors 1 and 2`{:class="crumbleinputoutput"} to `stop`{:class="crumbleinputoutput"}. Add them to the end of your code so far
 
