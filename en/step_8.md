@@ -104,7 +104,7 @@ Change the `wait`{:class="crumblecontrol"} time to between `100`{:class="crumble
 
 --- task ---
 
-To make a left-hand turn, duplicate the right-hand turn blocks that you have just made, toggle the `motor 1`{:class="crumbleinputoutput"} block to `forward`{:class="crumbleinputoutput"} and the `motor 2`{:class="crumbleinputoutput"} block to `reverse`{:class="crumbleinputoutput".
+To make a left-hand turn, duplicate the right-hand turn blocks that you have just made, toggle the `motor 1`{:class="crumbleinputoutput"} block to `forward`{:class="crumbleinputoutput"} and the `motor 2`{:class="crumbleinputoutput"} block to `reverse`{:class="crumbleinputoutput"}.
 
 Now join up your blocks - the `forward`{:class="crumbleinputoutput"}, `right turn`{:class="crumbleinputoutput"} and `left turn`{:class="crumbleinputoutput"} sections only leaving aside the `stop`{:class="crumbleinputoutput"} blocks.
 
