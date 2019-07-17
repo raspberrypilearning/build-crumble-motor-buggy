@@ -116,7 +116,11 @@ You're almost there. You have a random forward move, a random right-hand turn an
 
 --- task ---
 
-Put all of your main code into a `do 10 times`{:class="crumblecontrol"} loop. That's the `forward`{:class="crumbleinputoutput"}, `right turn`{:class="crumbleinputoutput"} and `left turn`{:class="crumbleinputoutput"} sections all in the `repeat`{:class="crumblecontrol"} loop.
+Pull your main code below the `wait 2.0 seconds`{:class="crumblecontrol"} away in to a little space.
+
+Put all of this main code into a `do 10 times`{:class="crumblecontrol"} loop. That's the `forward`{:class="crumbleinputoutput"}, `right turn`{:class="crumbleinputoutput"} and `left turn`{:class="crumbleinputoutput"} sections all in the `repeat`{:class="crumblecontrol"} loop.
+
+Add the loop to the `program start`{:class="crumblebasic"} and the `wait 2 seconds`{:class="crumblecontrol"}blocks. 
 
 Now add the `stop`{:class="crumbleinputoutput"} blocks to the end of the code.
 
