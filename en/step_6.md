@@ -112,7 +112,7 @@ Draw an arrow to show where the wheel would go and try to imagine what this mean
 
 Make sure your battery pack is turned off and plug your Crumble back into your computer and write the code to make this simple turn happen.
 
-When the `program starts`{:class="crumblebasic"}, `wait 2 seconds`{:class="crumblecontrol"} to give yourself time to move your hand after turning the battery pack on, tell the left-hand motor(`motor 2`{:class="crumbleinputoutput"}) to go `forwards`{:class="crumbleinputoutput"}, `wait 1 second`{:class="crumblecontrol"} and turn `motor 2 off`{:class="crumbleinputoutput".
+When the `program starts`{:class="crumblebasic"}, `wait 2 seconds`{:class="crumblecontrol"} to give yourself time to move your hand after turning the battery pack on, tell the left-hand motor (`motor 2`{:class="crumbleinputoutput"}) to go `forwards`{:class="crumbleinputoutput"}, `wait 1 second`{:class="crumblecontrol"} and turn `motor 2 off`{:class="crumbleinputoutput"}.
 
 ![Code to turn motor 2 forwards and then off](images/speedAndSpins_motor2ForwardTurnCode.png)
 
@@ -148,9 +148,9 @@ Draw arrows to show where the wheels would go and again, try to imagine what thi
 
 Just like before, turn your battery pack off and plug your Crumble back into your computer to write the code to make this two motor turn happen.
 
-After the `motor 2 forwards`{:class="crumbleinputoutput" block, add a `motor 1 reverse`{:class="crumbleinputoutput" block to tell the right-hand motor to go backwards.
+After the `motor 2 forwards`{:class="crumbleinputoutput"} block, add a `motor 1 reverse`{:class="crumbleinputoutput"} block to tell the right-hand motor to go backwards.
 
-You will also need to turn `motor 1 off`{:class="crumbleinputoutput" after the `wait 1 second`{:class="crumblecontrol"}. Always remember to turn everything off at the end of your code... unless you want it running forever!
+You will also need to turn `motor 1 off`{:class="crumbleinputoutput"} after the `wait 1 second`{:class="crumblecontrol"}. Always remember to turn everything off at the end of your code... unless you want it running forever!
 
 ![Code to turn motor 2 forwards, motor 1 backwards and then both off](images/speedAndSpins_m2ForwardM1BackwardsTurnCode.png)
 
