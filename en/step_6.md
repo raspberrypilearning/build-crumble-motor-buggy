@@ -58,5 +58,13 @@ If the change is too quick, make longer waiting times and run it again.
 
 --- /print-only ---
 
+### Set your Crumble free!
+
+My Crumble motor buggy ran off the edge of mydesk which tells me it is time to look at unplugging the Crumble and setting it free to roam on the floor.
+
+
+
+
+
 ### Turning right and turning left
 
