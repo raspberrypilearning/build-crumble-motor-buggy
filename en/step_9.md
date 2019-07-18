@@ -1,13 +1,32 @@
 ## Random journey 2
 
-Now you are going to code a random journey for your Crumble buggy using the `motor`{:class="crumbleinputoutput"}, `wait`{:class="crumblecontrol"} and `random`{:class="crumbleoperators"} blocks.
+Random journey 1 was a repeat loop with three basic steps:
++ move a random distance
++ turn right a random rotation
++ turn left a random rotation
+
+It would make more sense to simply turn either left or right by a random amount but randomising whether you turn left or right is a little more complicated, so that's what we are going to do next!
 
 --- task ---
 
-We start with, you guessed it, the `program start`{:class="crumblebasic"} block and add two `motor`{:class="crumbleinputoutput"} blocks, one for `motor 1`{:class="crumbleinputoutput"} and the other for `motor 2`{:class="crumbleinputoutput"}.
+We'll start with the code that we ended with for 'random journey 1'.
 
-Add a `wait 100 milliseconds`{:class="crumblecontrol"} block.
+If you don't already have it, open it now,and if you didn't save it, then make it now.
 
-![Turning both motors on code](images/randomJourney1_codeStep1.png)
+![Random journey 1 code](images/randomJourney1_codeStep10.png)
+
+--- /task ---
+
+Let's just recap what each part of the code does before we start taking some parts out.
+
+![Random journey 1 code breakdown](images/randomJourney2_codeBreakdown.png)
+
+--- task ---
+
+Pick a `random 0 to 10`{:class="crumbleoperators"} block from the `Operators`{:class="crumbleoperators"} palette.
+
+Place it in the speed section of the first `motor`{:class="crumbleinputoutput"} block and set the number range from `50`{:class="crumbleoperators"} to `80`{:class="crumbleoperators"}.
+
+![First random speed block](images/randomJourney1_codeStep2.png)
 
 --- /task ---
