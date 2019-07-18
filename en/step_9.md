@@ -61,11 +61,11 @@ Get a `random number`{:class="crumbleoperators"} block, put it in the `let direc
 
 --- /task ---
 
-This means that, for each `repeat`{:class="crumblecontrol"} cycle, `let direction = 0`{:class="crumblevariables"} will be set to either `1`{:class="crumbleoperators"} or `2`{:class="crumbleoperators"}.
+This means that, for each `repeat`{:class="crumblecontrol"} cycle, the `direction`{:class="crumblevariables"} variable will be set to either `1`{:class="crumbleoperators"} or `2`{:class="crumbleoperators"}.
 
-We are going to use this by saying, `if`{:class="crumblecontrol"} `direction =`{:class="crumblevariables"} `1`{:class="crumbleoperators"} `turn right`{:class="crumbleinputoutput"} but `if`{:class="crumblecontrol"} `direction =`{:class="crumblevariables"} `2`{:class="crumbleoperators"} `turn left`{:class="crumbleinputoutput"}.
+We are going to use this by saying, `if`{:class="crumblecontrol"} `direction =`{:class="crumblevariables"} `1`{:class="crumbleoperators"} `then`{:class="crumblecontrol"} `turn right`{:class="crumbleinputoutput"} but `if`{:class="crumblecontrol"} `direction =`{:class="crumblevariables"} `2`{:class="crumbleoperators"} `then`{:class="crumblecontrol"} `turn left`{:class="crumbleinputoutput"}.
 
-Since `direction`{:class="crumblevariables"} can only be `1`{:class="crumbleoperators"} or `2`{:class="crumbleoperators"}, we'll actually say `if`{:class="crumblecontrol"} `direction =`{:class="crumblevariables"} `1`{:class="crumbleoperators"} `turn right`{:class="crumbleinputoutput"} `else`{:class="crumblecontrol"} `turn left`{:class="crumbleinputoutput"}.
+Since `direction`{:class="crumblevariables"} can only be `1`{:class="crumbleoperators"} or `2`{:class="crumbleoperators"}, we'll actually say `if`{:class="crumblecontrol"} `direction =`{:class="crumblevariables"} `1`{:class="crumbleoperators"} `then`{:class="crumblecontrol"} `turn right`{:class="crumbleinputoutput"} `else`{:class="crumblecontrol"} `turn left`{:class="crumbleinputoutput"}.
 
 So let's ask if `if`{:class="crumblecontrol"} `direction =`{:class="crumblevariables"} `1`{:class="crumbleoperators"}.
 
@@ -78,5 +78,41 @@ In the hexagonal space you need to add a `0 = 0`{:class="crumbleoperators"} bloc
 Place a rounded end `direction`{:class="crumblevariables"} variable block in the place of the first `0`{:class="crumbleoperators"} and change the second `0`{:class="crumbleoperators"} to `1`{:class="crumbleoperators"}.
 
 ![New variable called direction](images/randomJourney2_codeStep5.png)
+
+--- /task ---
+
+The `if... then... else...`{:class="crumblecontrol"} block has two open sections waiting for code. The first is for what happens if the condition is true, i.e. `if`{:class="crumblecontrol"} `direction`{:class="crumblevariables"} does `equal`{:class="crumblevariables"} `1`{:class="crumbleoperators"}, while the second, the `else`{:class="crumblecontrol"} part, is for what happens `if`{:class="crumblecontrol"} `direction`{:class="crumblevariables"} does NOT `equal`{:class="crumblevariables"} `1`{:class="crumbleoperators"}.
+
+--- task ---
+
+Inside the `if`{:class="crumblecontrol"} `direction`{:class="crumblevariables"} does `equal`{:class="crumblevariables"} `1`{:class="crumbleoperators"} `then`{:class="crumblecontrol"} open section, add the code that we already have to make your buggy turn right.
+
+![New variable called direction](images/randomJourney2_codeStep6.png)
+
+--- /task ---
+
+--- task ---
+
+And inside the `else`{:class="crumblecontrol"} open section, add our code to make your buggy turn left.
+
+![New variable called direction](images/randomJourney2_codeStep7.png)
+
+--- /task ---
+
+--- task ---
+
+The only left to do is excecute your code.
+
+--- no-print ---
+
+![Running random journey 2 code](images/randomJourney2_finalRun.gif)
+
+--- /no-print ---
+
+--- print-only ---
+
+![Running random journey 2 code](images/randomJourney2_finalRun.png)
+
+--- /print-only ---
 
 --- /task ---
