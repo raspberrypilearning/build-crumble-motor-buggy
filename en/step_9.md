@@ -81,7 +81,9 @@ Place a rounded end `direction`{:class="crumblevariables"} variable block in the
 
 --- /task ---
 
-The `if... then... else...`{:class="crumblecontrol"} block has two open sections waiting for code. The first is for what happens if the condition is true, i.e. `if`{:class="crumblecontrol"} `direction`{:class="crumblevariables"} does `equal`{:class="crumblevariables"} `1`{:class="crumbleoperators"}, while the second, the `else`{:class="crumblecontrol"} part, is for what happens `if`{:class="crumblecontrol"} `direction`{:class="crumblevariables"} does NOT `equal`{:class="crumblevariables"} `1`{:class="crumbleoperators"}.
+The `if... then... else...`{:class="crumblecontrol"} block has two open sections waiting for code. 
++ The first is for what happens if the condition is true, i.e. `if`{:class="crumblecontrol"} `direction`{:class="crumblevariables"} does `equal`{:class="crumblevariables"} `1`{:class="crumbleoperators"}
++ The second, the `else`{:class="crumblecontrol"} part, is for what happens `if`{:class="crumblecontrol"} `direction`{:class="crumblevariables"} does NOT `equal`{:class="crumblevariables"} `1`{:class="crumbleoperators"}.
 
 --- task ---
 
