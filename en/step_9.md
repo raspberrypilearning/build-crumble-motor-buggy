@@ -23,10 +23,60 @@ Let's just recap what each part of the code does before we start taking some par
 
 --- task ---
 
-Pick a `random 0 to 10`{:class="crumbleoperators"} block from the `Operators`{:class="crumbleoperators"} palette.
+The first thing to do is separate and pull out the sections that turn right and turn left.
 
-Place it in the speed section of the first `motor`{:class="crumbleinputoutput"} block and set the number range from `50`{:class="crumbleoperators"} to `80`{:class="crumbleoperators"}.
+![Pull out turn sections](images/randomJourney2_codeStep1.png)
 
-![First random speed block](images/randomJourney1_codeStep2.png)
+--- /task ---
+
+From now on we'll use either the right turn or the left turn but not both.
+
+We're going to make a variable to help our program decide which direction to turn.
+
+--- task ---
+
+In the `Variables`{:class="crumblevariables"} palette, click `Add New Variable`{:class="crumblevariables"}.
+
+Enter a name that makes sense for choosing direction like 'direction' or 'right or left?'.
+
+Note: Neither the computer nor the Crumble care what the variable is called but is best to choose names that help us understand what the variable is for.
+
+![New variable called direction](images/randomJourney2_codeStep2.png)
+
+--- /task ---
+
+--- task ---
+
+Get a `let # = 0`{:class="crumblevariables"} from the `Variables`{:class="crumblevariables"} palette and add a rounded end `direction`{:class="crumblevariables"} block into the empty space
+
+![Set the direction variable](images/randomJourney2_codeStep3.png)
+
+--- /task ---
+
+--- task ---
+
+Get a `random number`{:class="crumbleoperators"} block, put it in the `let direction = 0`{:class="crumblevariables"} value box andset the range from `1`{:class="crumbleoperators"} to `2`{:class="crumbleoperators"}.
+
+![New variable called direction](images/randomJourney2_codeStep4.png)
+
+--- /task ---
+
+This means that, for each `repeat`{:class="crumblecontrol"} cycle, `let direction = 0`{:class="crumblevariables"} will be set to either `1`{:class="crumbleoperators"} or `2`{:class="crumbleoperators"}.
+
+We are going to use this by saying, `if`{:class="crumblecontrol"} `direction =`{:class="crumblevariables"} `1`{:class="crumbleoperators"} `turn right`{:class="crumbleinputoutput"} but `if`{:class="crumblecontrol"} `direction =`{:class="crumblevariables"} `2`{:class="crumbleoperators"} `turn left`{:class="crumbleinputoutput"}.
+
+Since `direction`{:class="crumblevariables"} can only be `1`{:class="crumbleoperators"} or `2`{:class="crumbleoperators"}, we'll actually say `if`{:class="crumblecontrol"} `direction =`{:class="crumblevariables"} `1`{:class="crumbleoperators"} `turn right`{:class="crumbleinputoutput"} `else`{:class="crumblecontrol"} `turn left`{:class="crumbleinputoutput"}.
+
+So let's ask if `if`{:class="crumblecontrol"} `direction =`{:class="crumblevariables"} `1`{:class="crumbleoperators"}.
+
+--- task ---
+
+Get an `if... then... else...`{:class="crumblecontrol"} block from the `Control`{:class="crumblecontrol"} palette and add it under the `variable`{:class="crumblevariables"} setting block.
+
+In the hexagonal space you need to add a `0 = 0`{:class="crumbleoperators"} block.
+
+Place a rounded end `direction`{:class="crumblevariables"} variable block in the place of the first `0`{:class="crumbleoperators"} and change the second `0`{:class="crumbleoperators"} to `1`{:class="crumbleoperators"}.
+
+![New variable called direction](images/randomJourney2_codeStep5.png)
 
 --- /task ---
