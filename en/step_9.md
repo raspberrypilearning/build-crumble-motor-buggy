@@ -47,7 +47,7 @@ Note: Neither the computer nor the Crumble care what the variable is called but 
 
 --- task ---
 
-Get a `let # = 0`{:class="crumblevariables"} from the `Variables`{:class="crumblevariables"} palette and add a rounded end `direction`{:class="crumblevariables"} block into the empty space
+Get a `let   = 0`{:class="crumblevariables"} from the `Variables`{:class="crumblevariables"} palette and add a rounded end `direction`{:class="crumblevariables"} block into the empty space
 
 ![Set the direction variable](images/randomJourney2_codeStep3.png)
 

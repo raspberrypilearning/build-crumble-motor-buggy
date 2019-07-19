@@ -16,4 +16,5 @@ steps:
     challenge: true
   - title: Random journey 1
   - title: Random journey 2
-  - title: 10
+  - title: Code challenge 1 - maze
+  - title: Code challenge 2 - football
