@@ -143,7 +143,7 @@ Each time something doesn't go as planned, you need to look carefully at where i
 
 ![Annotated code](images/mazeChallenge_codeStep7annotated.png)
 
- Since the last thing I added was the forward move, it is easy to think that this must be the problem but it was actually the turn before that was wrong. because the buggy turned too far it was pointing too close to the mug - the forward move is fine, I need to reduce the turn time!
+ Since the last thing I added was the forward move, it is easy to think that this must be the problem but it was actually the turn before that was wrong. The buggy turned too far so it was pointing too close to the mug - the forward move is fine, I need to reduce the turn time!
 
 Make sure that you have got your code right before going on to the next move, that way it is much easier to find what you need to change.
 
@@ -159,17 +159,11 @@ Here is what the code looked like for the examplebuggy completing the example ma
 
 ![Completed code](images/mazeChallenge_codeStep8finalCode.png)
 
-And here is the buggy in action!
-
 --- no-print ---
+
+And here is the buggy in action!
 
 ![Buggy completing the maze](images/mazeChallenge_completion.gif)
 
 --- /no-print ---
-
---- print-only ---
-
-![Buggy completing the maze](images/mazeChallenge_completion.png)
-
---- /print-only ---
 
