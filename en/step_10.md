@@ -151,7 +151,9 @@ Make sure that you have got your code right before going on to the next move, th
 
 The code for this example maze got so long, adding three lines each time there was a new movement, that it went right off the bottom of the screen!
 
-Redfern Electronics, who make the Crumble, plan to add a scroll bar so that you can move around the code workspace as you would in a web browser and many everyday apps but for now, all you need to do is click and drag on the white background to move around the workspace.
+Redfern Electronics, who make the Crumble, plan to add a scroll bar so that you can move around the code workspace as you would in a web browser and many everyday apps but for now, all you need to do is click and drag on the white background to move around the workspace. As you do so the normal arrow cursor turns into a four pointed arrow cursor.
+
+![Scrolling cursor](images/mazeChallenge_scrollingCursor.png)
 
 ### The completed maze
 
