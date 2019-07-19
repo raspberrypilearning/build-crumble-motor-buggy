@@ -87,13 +87,17 @@ The next sequence of three blocks is a model for how this challenge goes from no
 
 --- task ---
 
+Start by pulling the `STOP`{:class="crumbleinputoutput"} blocks away from the code.
+
 Since we are about to go forwards we set `motor 1`{:class="crumbleinputoutput"} and `motor 2`{:class="crumbleinputoutput"} to go `forwards`{:class="crumbleinputoutput"}. I am going to set them at `50%`{:class="crumbleinputoutput"} for now.
 
 The last of the three steps in each move is to set the `duration`{:class="crumblecontrol"} of the move using a `wait`{:class="crumblecontrol"} block.
 
-Enter a `wait`{:class="crumblecontrol"} time and see how it looks.
+Enter a `wait`{:class="crumblecontrol"} time.
 
-![Add a second move sequence](images/mazeChallenge_codeStep5.png)
+Don't forget toput the `STOP`{:class="crumbleinputoutput"} blocks back before you run the code.
+
+![Add a forward sequence](images/mazeChallenge_codeStep5.png)
 
 --- /task ---
 
@@ -105,12 +109,16 @@ The next move will be a turn to the right but we still follow the same pattern:
 
 --- task ---
 
-Since we are about to go forwards we set `motor 1`{:class="crumbleinputoutput"} and `motor 2`{:class="crumbleinputoutput"} to go `forwards`{:class="crumbleinputoutput"}. I am going to set them at `50%`{:class="crumbleinputoutput"} for now.
+Remove the `STOP`{:class="crumbleinputoutput"} blocks.
 
-The last of the three steps in each move is to set the `duration`{:class="crumblecontrol"} of the move using a `wait`{:class="crumblecontrol"} block.
+For a right turn we need `motor 1`{:class="crumbleinputoutput"} to `STOP`{:class="crumbleinputoutput"} and `motor 2`{:class="crumbleinputoutput"} to go `forwards`{:class="crumbleinputoutput"}.
 
-Enter a `wait`{:class="crumblecontrol"} time and see how it looks.
+Then set the `duration`{:class="crumblecontrol"} for the turn.
 
-![Add a second move sequence](images/mazeChallenge_codeStep5.png)
+Replace the `STOP`{:class="crumbleinputoutput"} blocks.
+
+![Add a second turn sequence](images/mazeChallenge_codeStep6.png)
 
 --- /task ---
+
+Continue like this, adding a forwards sequence followed by a turn sequence and so on.
