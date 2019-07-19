@@ -87,7 +87,7 @@ The `if... then... else...`{:class="crumblecontrol"} block has two open sections
 
 --- task ---
 
-Inside the `if`{:class="crumblecontrol"} `direction`{:class="crumblevariables"} does `equal`{:class="crumblevariables"} `1`{:class="crumbleoperators"} `then`{:class="crumblecontrol"} open section, add the code that we already have to make your buggy turn right.
+Inside the `if`{:class="crumblecontrol"} `direction`{:class="crumblevariables"} does `equal`{:class="crumblevariables"} `1`{:class="crumbleoperators"} `then`{:class="crumblecontrol"} open section, add the code that you already have to make your buggy turn right.
 
 ![New variable called direction](images/randomJourney2_codeStep6.png)
 
@@ -95,7 +95,7 @@ Inside the `if`{:class="crumblecontrol"} `direction`{:class="crumblevariables"} 
 
 --- task ---
 
-And inside the `else`{:class="crumblecontrol"} open section, add our code to make your buggy turn left.
+And inside the `else`{:class="crumblecontrol"} open section, add your code to make your buggy turn left.
 
 ![New variable called direction](images/randomJourney2_codeStep7.png)
 
