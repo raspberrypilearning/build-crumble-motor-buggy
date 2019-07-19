@@ -111,10 +111,4 @@ The only left to do is excecute your code.
 
 --- /no-print ---
 
---- print-only ---
-
-![Running random journey 2 code](images/randomJourney2_finalRun.png)
-
---- /print-only ---
-
 --- /task ---
