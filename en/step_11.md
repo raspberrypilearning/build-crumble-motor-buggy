@@ -42,7 +42,7 @@ Mark the set positions for each player's buggy. In the example there are little 
 
 --- /task ---
 
-It's time for kick-off!
+### Time to get coding!
 
 Your code will depend on the shot you want to make and where the ball is but in general there is a simple code structure that you can write and then adapt for any shot.
 
@@ -130,12 +130,37 @@ Set both `motors`{:class="crumbleinputoutput"} to `STOP`{:class="crumbleinputout
 
 That's the code that should form the basic structure of every shot you take. You don't need to write it again for each shot, just see what went wrong with your last shot and adjust the `speed`{:class="crumbleinputoutput"} or the `move time`{:class="crumblecontrol"}.
 
+### Kick-off!
+
 --- task ---
 
 As soon as you have your code, unplug and take your shot. Try and score a goal before your opponent is ready.
 
 Good luck!
 
-![Stop the motors](images/CrumballChallenge_codeStep6.png)
+--- no-print ---
+
+![Crumball first shot](images/CrumballChallenge_firstShot.gif)
+
+--- /no-print ---
+
+--- print-only ---
+
+![Crumball first shot](images/CrumballChallenge_firstShot.png)
+
+--- /print-only ---
 
 --- /task ---
+
+My first shot went very wrong and it is unlikely to go right first time. 
+
+My initial turn time was much too long, so I adjust my code and try again. My speeds were often at 100% and that also makes it hard to control. Find a balance between speed to beat your opponent and getting things right.
+
+By working out what you need to change to get a better aim, you will soon be getting some great shots in. You don't have to win the match in one shot!
+
+--- no-print ---
+
+![Crumball first shot](images/CrumballChallenge_winningShot.gif)
+
+--- /no-print ---
+
