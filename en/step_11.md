@@ -41,3 +41,101 @@ Mark the set positions for each player's buggy. In the example there are little 
 ![Crumball player markers](images/CrumballChallenge_playerMarkers.png)
 
 --- /task ---
+
+It's time for kick-off!
+
+Your code will depend on the shot you want to make and where the ball is but in general there is a simple code structure that you can write and then adapt for any shot.
+
+![Crumball shot aim](images/CrumballChallenge_basicAim.png)
+
++ rotate to space in front of the ball
++ move towards that space ball
++ rotate to the angle you want the move the ball in
++ move forward directly at the goal
++ stop motors
+
+Do remember to stop the motors!
+
+--- task ---
+
+Get the usual start blocks, a `program start`{:class="crumblebasic"} and a `wait 1 second`{:class="crumblecontrol"} block.
+
+![Crumball start blocks](images/CrumballChallenge_codeStep1.png)
+
+--- /task ---
+
+Now the rotation to the space in front of the ball.
+
+--- task ---
+
+Two `motor`{:class="crumbleinputoutput"} blocks and a `wait`{:class="crumblecontrol"}.
+
+One `motor`{:class="crumbleinputoutput"} will be going `forward`{:class="crumbleinputoutput"} and the other in `reverse`{:class="crumbleinputoutput"} depending on the way you want to turn. You'll soon know if you get them the wrong way round.
+
+Set the `wait`{:class="crumblecontrol"} block to however long you think it will take to get to the right angle.
+
+![Rotating towards the ball](images/CrumballChallenge_codeStep2.png)
+
+--- /task ---
+
+Next, move to where the ball is.
+
+--- task ---
+
+Again, two `motor`{:class="crumbleinputoutput"} blocks and a `wait`{:class="crumblecontrol"}.
+
+Both `motors`{:class="crumbleinputoutput"} will be going `forward`{:class="crumbleinputoutput"}.
+
+Set the `wait`{:class="crumblecontrol"} block to however long you think it will take to get just in front of the ball.
+
+![Moving to the ball](images/CrumballChallenge_codeStep3.png)
+
+--- /task ---
+
+Then, rotate to the direction you want to knock the ball.
+
+--- task ---
+
+As with every move in this game, two `motor`{:class="crumbleinputoutput"} blocks and a `wait`{:class="crumblecontrol"}.
+
+Set the correct `motors`{:class="crumbleinputoutput"} to `forward`{:class="crumbleinputoutput"} and `reverse`{:class="crumbleinputoutput"} to turn in the correct direction.
+
+Set the `wait`{:class="crumblecontrol"} time.
+
+![Turn to face the goal](images/CrumballChallenge_codeStep4.png)
+
+--- /task ---
+
+Now push the ball forwards towards the goal.
+
+--- task ---
+
+Set both `motors`{:class="crumbleinputoutput"} to go `forward`{:class="crumbleinputoutput"} for however many `seconds`{:class="crumblecontrol"} you think it will take to score a goal.
+
+Remember that you cannot get your buggy back until it stops moving so don't drive to far!
+
+![Move towards the goal](images/CrumballChallenge_codeStep5.png)
+
+--- /task ---
+
+Don't forget to stop!
+
+--- task ---
+
+Set both `motors`{:class="crumbleinputoutput"} to `STOP`{:class="crumbleinputoutput"}
+
+![Stop the motors](images/CrumballChallenge_codeStep6.png)
+
+--- /task ---
+
+That's the code that should form the basic structure of every shot you take. You don't need to write it again for each shot, just see what went wrong with your last shot and adjust the `speed`{:class="crumbleinputoutput"} or the `move time`{:class="crumblecontrol"}.
+
+--- task ---
+
+As soon as you have your code, unplug and take your shot. Try and score a goal before your opponent is ready.
+
+Good luck!
+
+![Stop the motors](images/CrumballChallenge_codeStep6.png)
+
+--- /task ---
