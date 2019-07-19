@@ -138,3 +138,38 @@ Now that I have added the next forward move, my test run shows me I have got it 
 ![Buggy crashing into mug](images/mazeChallenge_crash.png)
 
 --- /print-only ---
+
+Each time something doesn't go as planned, you need to look carefully at where it went wrong and this is a good opportunity to look and see if you understand your code.
+
+![Annotated code](images/mazeChallenge_codeStep7annotated.png)
+
+ Since the last thing I added was the forward move, it is easy to think that this must be the problem but it was actually the turn before that was wrong. because the buggy turned too far it was pointing too close to the mug - the forward move is fine, I need to reduce the turn time!
+
+Make sure that you have got your code right before going on to the next move, that way it is much easier to find what you need to change.
+
+### Long lines of code
+
+The code for this example maze got so long, adding three lines each time there was a new movement, that it went right off the bottom of the screen!
+
+Redfern Electronics, who make the Crumble, plan to add a scroll bar so that you can move around the code workspace as you would in a web browser and many everyday apps but for now, all you need to do is click and drag on the white background to move around the workspace.
+
+### The completed maze
+
+Here is what the code looked like for the examplebuggy completing the example maze.
+
+![Completed code](images/mazeChallenge_codeStep8finalCode.png)
+
+And here is the buggy in action!
+
+--- no-print ---
+
+![Buggy completing the maze](images/mazeChallenge_completion.gif)
+
+--- /no-print ---
+
+--- print-only ---
+
+![Buggy completing the maze](images/mazeChallenge_completion.png)
+
+--- /print-only ---
+
