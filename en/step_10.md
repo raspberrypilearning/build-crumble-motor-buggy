@@ -1,6 +1,8 @@
 ## Code challenge 1 - maze
 
-This is a fun little code challenge that you can make as quick or as complex as you like. Your maze can be an individual one or a shared maze where you compete with friends to complete the maze first. You can work with friends to work out how to solve the tricky mathematical challenges that you will come across. How much longer does the buggy have to rotate to the right? What would happen if we changed the speed to 65%?
+This is a fun little code challenge that you can make as quick or as complex as you like. Your maze can be an individual one or a shared maze where you compete with friends to complete the maze first. You can work with friends to work out how to solve the tricky mathematical challenges that you will come across. 
+
+How much longer does the buggy have to rotate to the right? What would happen if we changed the speed to 65%?
 
 --- task ---
 
@@ -13,6 +15,8 @@ Here is an example:
 This example probaly seems quite easy but getting your code right takes patient trial error. This one has small passages and needs just the right turns. Start off with something more simple that this and build with your successes!
 
 --- /task ---
+
+My maze has a green shape showing me where to start from on each run and to finish I just need to have any part of the buggy back in the purple box.
 
 --- task ---
 
@@ -75,3 +79,38 @@ Because you will always start from the beginning of the maze. it is important to
 
 ![Start location marker](images/mazeChallenge_startLocation.png)
 
+The next sequence of three blocks is a model for how this challenge goes from now on.
+
++ set motor 1
++ set motor 2
++ set the duration for the move
+
+--- task ---
+
+Since we are about to go forwards we set `motor 1`{:class="crumbleinputoutput"} and `motor 2`{:class="crumbleinputoutput"} to go `forwards`{:class="crumbleinputoutput"}. I am going to set them at `50%`{:class="crumbleinputoutput"} for now.
+
+The last of the three steps in each move is to set the `duration`{:class="crumblecontrol"} of the move using a `wait`{:class="crumblecontrol"} block.
+
+Enter a `wait`{:class="crumblecontrol"} time and see how it looks.
+
+![Add a second move sequence](images/mazeChallenge_codeStep5.png)
+
+--- /task ---
+
+The next move will be a turn to the right but we still follow the same pattern:
+
++ set motor 1
++ set motor 2
++ set the duration for the move
+
+--- task ---
+
+Since we are about to go forwards we set `motor 1`{:class="crumbleinputoutput"} and `motor 2`{:class="crumbleinputoutput"} to go `forwards`{:class="crumbleinputoutput"}. I am going to set them at `50%`{:class="crumbleinputoutput"} for now.
+
+The last of the three steps in each move is to set the `duration`{:class="crumblecontrol"} of the move using a `wait`{:class="crumblecontrol"} block.
+
+Enter a `wait`{:class="crumblecontrol"} time and see how it looks.
+
+![Add a second move sequence](images/mazeChallenge_codeStep5.png)
+
+--- /task ---
