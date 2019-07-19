@@ -155,6 +155,18 @@ Redfern Electronics, who make the Crumble, plan to add a scroll bar so that you 
 
 ![Scrolling cursor](images/mazeChallenge_scrollingCursor.png)
 
+--- task ---
+
+Carry on adding moves using the three block sequence:
+
++ set motor 1
++ set motor 2
++ set the duration for the move
+
+until you have completed your maze!
+
+--- /task ---
+
 ### The completed maze
 
 Here is what the code looked like for the examplebuggy completing the example maze.
