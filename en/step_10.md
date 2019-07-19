@@ -166,4 +166,3 @@ And here is the buggy in action!
 ![Buggy completing the maze](images/mazeChallenge_completion.gif)
 
 --- /no-print ---
-
