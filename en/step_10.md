@@ -122,3 +122,19 @@ Replace the `STOP`{:class="crumbleinputoutput"} blocks.
 --- /task ---
 
 Continue like this, adding a forwards sequence followed by a turn sequence and so on.
+
+### Mistakes WILL happen
+
+Now that I have added the next forward move, my test run shows me I have got it wrong.
+
+--- no-print ---
+
+![Buggy crashing into mug](images/mazeChallenge_crash.gif)
+
+--- /no-print ---
+
+--- print-only ---
+
+![Buggy crashing into mug](images/mazeChallenge_crash.png)
+
+--- /print-only ---
