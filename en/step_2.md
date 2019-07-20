@@ -1,6 +1,6 @@
 ## What does a motor buggy look like?
 
-Well, what does a motor buggy look like? The question should really be, what do you want your robot motor buggy to look like?
+The question should really be, what do you want your robot motor buggy to look like?
 
 You can make your motor buggy out of anything that you have to hand, or can get hold of! You can make the motor chassis (the main body) yourself or you can reuse a box or container. 
 

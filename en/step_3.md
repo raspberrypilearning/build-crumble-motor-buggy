@@ -10,9 +10,7 @@ The first step is to find, or make, your chassis that will be the base for your 
 
 --- task ---
 
-If your chassis is not very strong or is quite flexible, it is worth sticking a bit of stronger board where the motors are going to be attached to keep everything steady. 
-
-<b>Note:</b> this partly depends on whether you are making something you want to last or just a really quick prototype.
+If your chassis is not very strong or is too flexible then it is worth sticking a bit of stronger board where the motors are going to be attached to keep everything steady. 
 
 ![Cardboard support for motors](images/makeBuggy_motorSupport.png)
 
@@ -24,7 +22,7 @@ A glue gun is ideal for fixing the motors in place but double sided tape also wo
 
 Make sure that the motor sticks out enough to put the wheels on without them rubbing, particularly if using a chassis with angled sides such as margarine tub or old takeaway container.
 
-The wires, or terminals, of the motors need to be going inwards away from where the wheels will attach to stop them getting tangled with the wheels.
+The wires, or terminals, of the motors need to be facing inwards. If they face outwards they will get tangled with the wheels.
 
 ![Fixing the first motor](images/makeBuggy_firstMotor.png)
 
