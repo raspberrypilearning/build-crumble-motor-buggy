@@ -1,14 +1,14 @@
 ## Introduction
 
-You will use your design, making and coding skills to build a robot buggy with DC motors controlled by a Crumble robotics board.
+You will use your design, making and coding skills to build a robot buggy with DC gear motors controlled by a Crumble robotics board.
 
 ### What you will make
 
-You will make a buggy to be controlled by your coding.
+You will make a motor buggy to be controlled by your coding.
 
 --- no-print ---
 
-![Completed Crumble buggy](images/completedBuggy.png)
+![Completed Crumble buggy](images/completedBuggy.gif)
 
 --- /no-print ---
 
