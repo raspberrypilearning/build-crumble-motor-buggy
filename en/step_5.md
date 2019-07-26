@@ -10,7 +10,7 @@ Just because the we use the code block that says forwards, it does not mean that
 
 The gear motors are nor aligned in the same way. The left motor is a mirror image of the right motor which means that (if it has been wired up the same, i.e. positive to positive and negative to negative) it will make the attached wheel turn in the opposite direction!
 
-![The left motor will turn in the opposite direction to the right motor](images/testCode_mirroredMotors.png)
+![The left motor will turn in the opposite direction to the right motor](images/testCode_mirroredMotors-01.png)
 
 --- task ---
 
@@ -80,7 +80,7 @@ As long as I remember that `FORWARD`{:class="crumbleinputoutput"} means backward
 
 Whether the motors goes one way or another is simply a matter of polarity. In other words, it is a matter of which way round the positive and negative wires are connected. in the case of the motors this is not important, so in this example I am going to switch the positive and negative wires around. I could do this anywhere in the circuit but I'll do where the croc clips meet the gear motor wires.
 
-![Reversing the right motor polarity](images/testCode_crumbleMotorRReversePolarity.png)
+![Reversing the right motor polarity](images/testCode_crumbleMotorRReversePolarity-01.png)
 
 WARNING: It is safe to reverse the polarity on these gear motors but in other situations reversing the positive and negative polarity can damage components.
 

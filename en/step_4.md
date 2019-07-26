@@ -24,13 +24,13 @@ The best version of all for the Crumble are the gear motors sold by the makers o
 
 As with all our projects, the Crumble board will be connected to your computer with a micro USB cable and to a battery pack, or similar power supply using crocodile clips.
 
-![Crumble connected to battery pack and computer](images/wiring_crumbleConnected.png)
+![Crumble connected to battery pack and computer](images/wiring_crumbleConnected-01.png)
 
 --- task ---
 
 Connect a crocodile clip to each of the positive and negative terminals of the motor 1 output on the bottom left of the Crumble board
 
-![Positive and negative Crumble motor 1 connections](images/makeBuggy_crumbleMotor1Output.png)
+![Positive and negative Crumble motor 1 connections](images/makeBuggy_crumbleMotor1Output-01.png)
 
 --- /task ---
 
@@ -40,7 +40,7 @@ Connect the other end of these crocodile clips to the positive and negative wire
 
 In this example, the Crumble motor 1 connectors are connected to the right-hand gear motor.
 
-![Positive and negative Crumble to the right-hand motor](images/makeBuggy_crumbleMotorRInput.png)
+![Positive and negative Crumble to the right-hand motor](images/makeBuggy_crumbleMotorRInput-01.png)
 
 Here's how that might look in the real world.
 
@@ -70,7 +70,7 @@ Now we do the same for the second motor.
 
 Connect a crocodile clip to each of the positive and negative terminals of the motor 2 output on the bottom right of the Crumble board.
 
-![Positive and negative Crumble motor 2 connections](images/makeBuggy_crumbleMotor2Output.png)
+![Positive and negative Crumble motor 2 connections](images/makeBuggy_crumbleMotor2Output-01.png)
 
 --- /task ---
 
@@ -78,7 +78,7 @@ Connect a crocodile clip to each of the positive and negative terminals of the m
 
 Connect the other end of this second set of crocodile clips to the positive and negative wires (or terminals) of one of the second gear motor. 
 
-![Positive and negative Crumble to the left-hand motor](images/makeBuggy_crumbleMotorLInput.png)
+![Positive and negative Crumble to the left-hand motor](images/makeBuggy_crumbleMotorLInput-01.png)
 
 Here's how it might look in your motor buggy.
 
