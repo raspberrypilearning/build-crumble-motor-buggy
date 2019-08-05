@@ -1,10 +1,10 @@
 ## Introduction
 
-You will use your design, making and coding skills to build a robot buggy with DC gear motors controlled by a Crumble robotics board.
+In this project, you will build a robot buggy with DC gear motors controlled by a Crumble robotics board.
 
 ### What you will make
 
-You will make a motor buggy to be controlled by your coding.
+You will make a motor buggy that you will control with your program.
 
 --- no-print ---
 
@@ -24,17 +24,16 @@ title: What you will need
 ---
 ### Hardware
 
-+ A PC, Mac or Chromebook with Crumble software installed and a USB port
-
-Note: All components except DC motors are included in the Crumble starter kit but can also be bought separately.
-
-+ A Crumble controller
-+ A 3xAA battery pack
-+ Crocodile leads
-+ 2 DC mini gear motors with wheels
-
-+ Materials to make your buggy, e.g. a small box, food container, bottle or cardboard
-+ Tools to make your buggy, e.g. glue or tape, and scissors
++ A computer with:
+  + The Crumble software installed
+  + A USB port
++ A Crumble starter kit, or the components bought separately:
+  + A Crumble controller
+  + A 3xAA battery pack
+  + Crocodile leads
++ Two DC mini gear motors with wheels
++ Materials to make your buggy, e.g. a small box, food container, bottle, or cardboard
++ Tools to make your buggy, e.g. scissors and glue or tape
 
 ### Software
 
