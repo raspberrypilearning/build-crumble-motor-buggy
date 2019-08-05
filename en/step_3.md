@@ -1,8 +1,8 @@
-## Making your buggy
+## Make your buggy
 
 --- task ---
 
-The first step is to find, or make, your chassis that will be the base for your gear motors and hold the electronics.
+The first step is to find, or make, the chassis that will be the base for your gear motors and hold the electronics.
 
 ![A cardboard box for a chassis](images/makeBuggy_chassis.png)
 
@@ -10,7 +10,7 @@ The first step is to find, or make, your chassis that will be the base for your 
 
 --- task ---
 
-If your chassis is not very strong or is too flexible then it is worth sticking a bit of stronger board where the motors are going to be attached to keep everything steady. 
+If your chassis is not very strong, or if it is too flexible, then you could stick a piece of strong cardboard where the motors are going to be attached to keep everything steady. 
 
 ![Cardboard support for motors](images/makeBuggy_motorSupport.png)
 
@@ -18,11 +18,11 @@ If your chassis is not very strong or is too flexible then it is worth sticking 
 
 --- task ---
 
-A glue gun is ideal for fixing the motors in place but double sided tape also works fine.
+Next, you will fix the motors in place. A glue gun is ideal for this, but you could also use double-sided sticky tape.
 
-Make sure that the motor sticks out enough to put the wheels on without them rubbing, particularly if using a chassis with angled sides such as margarine tub or old takeaway container.
+Place the first motor on the chassis. Make sure that the motor sticks out enough to put the wheels on without them rubbing (particularly if you are using a chassis with angled sides, such as a margarine tub). If you are not sure how far the motor needs to stick out, you could attach the wheel to the motor first, then fix the motor in place. 
 
-The wires, or terminals, of the motors need to be facing inwards. If they face outwards they will get tangled with the wheels.
+The wires, or terminals, of the motors need to be facing inwards. If they face outwards, they will get tangled with the wheels.
 
 ![Fixing the first motor](images/makeBuggy_firstMotor.png)
 
@@ -30,7 +30,7 @@ The wires, or terminals, of the motors need to be facing inwards. If they face o
 
 --- task ---
 
-Try and get the two motors lined up together so that they are the same distance from the back, or front, and parallel.
+Try to get the two motors lined up together so that they are the same distance from the back, or front, and parallel.
 
 ![Aligning motors](images/makeBuggy_motorAlignment.png)
 
@@ -38,33 +38,24 @@ Try and get the two motors lined up together so that they are the same distance 
 
 --- task ---
 
-You will need to have the motors overhanging a little bit so that the wheels sit away from the chassis and can turn without rubbing.
+Put the wheels onto the motors. The wheels are usually quite a tight fit but should just push onto the plastic spigot coming out of the side of the gear motor.
 
-If you are not sure how far they need to stick out, you could always fix them in place with the wheels already attached to the gear motors. The motors are usually quite a tight fit but should just push onto the plastic spigot coming out of the side of the gear motor.
 
 ![Motors project from chassis to allow wheels to fit in place](images/makeBuggy_motorsStickOut.png)
 
 --- /task ---
 
---- task ---
-
-Old roll-on deodorants make pretty good roller ball castors. Just pull the top off the deodorant and give it a quick wash.
-
-![Deodorant roller](images/makeBuggy_deodorant.png)
-
---- /task ---
-
-Whatever you are using for your rollerball, check how level the buggy is going to be when you attach it to the chassis. Roller balls work best when they are roughly level so you might want to put in some cardboard spacers to raise it if your roller ball is much smaller than your wheels.
+Whatever you are using for your roller ball, check how level the buggy is going to be when you attach it to the chassis. Roller balls work best when they are roughly level, so if your roller ball is much smaller than your wheels, put in some cardboard spacers to raise it.
 
 ![Level roller ball and wheels](images/makeBuggy_rollerBallLevel.png)
 
-The deodorant roller ball in this example buggy is quite level but since the box is quite flimsy it is a good idea to put a little cardboard base down first.
+The deodorant roller ball in this example buggy is quite level, but since the box is quite flimsy, it is a good idea to put a cardboard base down first.
 
 ![A cardboard base for the roller ball](images/makeBuggy_rollerBallBase.png)
 
 --- task ---
 
-Fix your roller ball onto the supporting base or directly to the chassis.
+Fix your roller ball onto the supporting base, or directly onto the chassis.
 
 ![Fixing roller ball in place](images/makeBuggy_rollerBall.png)
 
@@ -72,7 +63,7 @@ Fix your roller ball onto the supporting base or directly to the chassis.
 
 --- task ---
 
-Now that the functional build is done, it is time to get fancy with your motor buggy and turn it into something wonderful... if you want to, of course!
+Now that the functional build is done, if you like, you can add the rest of your design and turn your motor buggy into something wonderful!
 
 ![Buggy with added bling](images/makeBuggy_decorated.png)
 
