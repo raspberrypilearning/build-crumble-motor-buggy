@@ -142,7 +142,7 @@ Now, write a program to check.
 
 --- task ---
 
-Duplicate the `motor`{:class="crumbleinputoutput"} and `wait`{:class="crumblecontrol"} blocks as needed to write a program that tells motors `1` and `2`{:class="crumbleinputoutput"} to go `FORWARD`{:class="crumbleinputoutput"}, then `wait for 0.3 seconds`{:class="crumblecontrol"}, then tells both motors to `REVERSE`{:class="crumbleinputoutput"}, then `wait`{:class="crumblecontrol"} again before both motors `STOP`{:class="crumbleinputoutput"}.
+Duplicate the `motor`{:class="crumbleinputoutput"} and `wait`{:class="crumblecontrol"} blocks as needed to write a program that tells motors `1` and `2`{:class="crumbleinputoutput"} to go `FORWARD`{:class="crumbleinputoutput"}, then `wait for 0.3 seconds`{:class="crumblecontrol"}, then tells both motors to `REVERSE`{:class="crumbleinputoutput"}, then `wait for 0.3 seconds`{:class="crumblecontrol"} again before both motors `STOP`{:class="crumbleinputoutput"}.
 
 ![Test code 4 for both motors](images/testCode_testCode4.png)
 
