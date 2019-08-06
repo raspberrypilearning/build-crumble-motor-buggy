@@ -1,30 +1,28 @@
-## Code challenge 1 - Crumball
+## Challenge: play 'Crumball'
 
-Crumball is like football, but played with Crumbles instead of feet.
+'Crumball' is like football, but played with Crumbles instead of feet.
 
-Its basic coding is much like the maze challenge but with shorter code and added pressure!
+The program is like the program in the maze challenge, but it is shorter and has added pressure!
 
-This is coding against the clock, or rather, coding against your opponent. The game is designed for two Crumble motor buggies but you could try it with more and you can always practice on your own too.
+You will code against the clock, or rather, against your opponent. The game is designed for two Crumble motor buggies, but you could try it with more, or you could practise on your own.
 
 ### The game
 
-As with football, you need a pitch with a goal at each end.
+As with football, you need a pitch with a goal at each end. The ball starts in the middle and the aim of the game is to knock the ball into the opposite team's goal.
 
-The ball starts in the middle and the object of the game is to knock the ball into the opposite goal.
+Players always start off in a set position, to the side of their goal facing forwards. The players must write code to score a goal as quickly as they can to beat their opponent. 
 
-Players always start off in a set position just to side of their goal facing directly forward. The coders must write code to score a goal as quickly as they can to beat their opponent. 
-
-As soon as your code is done and loaded,  you can unplug your Crumble, put your buggy in its set position facing forward and off it goes.
+As soon as your code is written and loaded onto your Crumble, you can unplug your Crumble, put your buggy in its set position facing forward, then it will set off.
 
 Once a Crumble is set in motion:
 
-+ it must complete its code without being stopped, interrupted or picked up
-+ as soon as the Crumble has completed running its code it must be removed from the pitch so that it does not block the other player
-+ once removed it is time to start coding again straight away for your next shot
++ Its program must run without being stopped, interrupted or picked up
++ As soon as the program has finished running, the Crumble must be removed from the pitch so that it does not block the other player
++ Once the Crumble has been removed, start coding your next shot
 
-If you are too slow with your coding, the other player might have moved the ball with their Crumble and your code will need changing.
+If your coding is too slow, the other player might have moved the ball with their Crumble, so you will need to change your code.
 
-Note: every shot starts from the same set position and always facing directly forwards!
+**Note**: every shot starts from the same set position and always facing forwards!
 
 --- task ---
 
@@ -32,45 +30,45 @@ Make a Crumball pitch.
 
 ![Crumball pitch](images/CrumballChallenge_pitch.png)
 
-A large sheet of paper would be fine but often it's easiest to mark a pitch out on the floor with masking tape or similar.
+You could use a large sheet of paper or plan a pitch on the floor. Make sure that you include goalposts!
 
-Use anything handy for goal posts and any small ball will do for the Crumball itself.
+You can use any small ball for the Crumball itself.
 
-Mark the set positions for each player's buggy. In the example there are little arrows on masking tape to show the position each wheel starts in.
+Mark the set positions for each player's buggy. In the example, there are arrows on masking tape to show the position for each wheel to start in.
 
 ![Crumball player markers](images/CrumballChallenge_playerMarkers.png)
 
 --- /task ---
 
-### Time to get coding!
+### Start coding!
 
-Your code will depend on the shot you want to make and where the ball is but in general there is a simple code structure that you can write and then adapt for any shot.
+Your code will depend on the shot you want to make and where the ball is, but in general, there is a simple code structure that you can write and then adapt for any shot.
 
 ![Crumball shot aim](images/CrumballChallenge_basicAim.png)
 
-+ rotate to space in front of the ball
-+ move towards that space ball
-+ rotate to the angle you want the move the ball in
-+ move forward directly at the goal
-+ stop motors
++ Rotate to the space in front of the ball
++ Move towards that space
++ Rotate to the angle you want the move the ball in
++ Move forward towards the goal
++ Stop motors
 
-Do remember to stop the motors!
+**Note:** remember to stop the motors!
 
 --- task ---
 
-Get the usual start blocks, a `program start`{:class="crumblebasic"} and a `wait 1 second`{:class="crumblecontrol"} block.
+Take the usual start blocks: a `program start`{:class="crumblebasic"} and a `wait 1 second`{:class="crumblecontrol"} block.
 
 ![Crumball start blocks](images/CrumballChallenge_codeStep1.png)
 
 --- /task ---
 
-Now the rotation to the space in front of the ball.
+Now, write the code for the rotation to the space in front of the ball.
 
 --- task ---
 
-Two `motor`{:class="crumbleinputoutput"} blocks and a `wait`{:class="crumblecontrol"}.
+Add two `motor`{:class="crumbleinputoutput"} blocks and a `wait`{:class="crumblecontrol"} block.
 
-One `motor`{:class="crumbleinputoutput"} will be going `forward`{:class="crumbleinputoutput"} and the other in `reverse`{:class="crumbleinputoutput"} depending on the way you want to turn. You'll soon know if you get them the wrong way round.
+One motor will be going `FORWARD`{:class="crumbleinputoutput"} and the other in `REVERSE`{:class="crumbleinputoutput"}, depending on the way you want to turn. 
 
 Set the `wait`{:class="crumblecontrol"} block to however long you think it will take to get to the right angle.
 
@@ -78,13 +76,13 @@ Set the `wait`{:class="crumblecontrol"} block to however long you think it will 
 
 --- /task ---
 
-Next, move to where the ball is.
+Next, write the code to move to where the ball is.
 
 --- task ---
 
-Again, two `motor`{:class="crumbleinputoutput"} blocks and a `wait`{:class="crumblecontrol"}.
+Again, add two `motor`{:class="crumbleinputoutput"} blocks and a `wait`{:class="crumblecontrol"} block.
 
-Both `motors`{:class="crumbleinputoutput"} will be going `forward`{:class="crumbleinputoutput"}.
+Both motors will be going `FORWARD`{:class="crumbleinputoutput"}.
 
 Set the `wait`{:class="crumblecontrol"} block to however long you think it will take to get just in front of the ball.
 
@@ -92,13 +90,13 @@ Set the `wait`{:class="crumblecontrol"} block to however long you think it will 
 
 --- /task ---
 
-Then, rotate to the direction you want to knock the ball.
+Then, write the code to rotate to the direction you want to knock the ball in.
 
 --- task ---
 
-As with every move in this game, two `motor`{:class="crumbleinputoutput"} blocks and a `wait`{:class="crumblecontrol"}.
+As with every move in this game, add two `motor`{:class="crumbleinputoutput"} blocks and a `wait`{:class="crumblecontrol"} block.
 
-Set the correct `motors`{:class="crumbleinputoutput"} to `forward`{:class="crumbleinputoutput"} and `reverse`{:class="crumbleinputoutput"} to turn in the correct direction.
+Set the motors to `FORWARD`{:class="crumbleinputoutput"} or `REVERSE`{:class="crumbleinputoutput"} to turn in the right direction.
 
 Set the `wait`{:class="crumblecontrol"} time.
 
@@ -106,13 +104,13 @@ Set the `wait`{:class="crumblecontrol"} time.
 
 --- /task ---
 
-Now push the ball forwards towards the goal.
+Now, write the code to push the ball forwards towards the goal.
 
 --- task ---
 
-Set both `motors`{:class="crumbleinputoutput"} to go `forward`{:class="crumbleinputoutput"} for however many `seconds`{:class="crumblecontrol"} you think it will take to score a goal.
+Set both motors to go `FORWARD`{:class="crumbleinputoutput"} for however many `seconds`{:class="crumblecontrol"} you think it will take to score a goal.
 
-Remember that you cannot get your buggy back until it stops moving so don't drive to far!
+Remember that you cannot get your buggy back until it stops moving, so don't drive too far!
 
 ![Move towards the goal](images/CrumballChallenge_codeStep5.png)
 
@@ -122,19 +120,19 @@ Don't forget to stop!
 
 --- task ---
 
-Set both `motors`{:class="crumbleinputoutput"} to `STOP`{:class="crumbleinputoutput"}
+Set both motors to `STOP`{:class="crumbleinputoutput"}.
 
 ![Stop the motors](images/CrumballChallenge_codeStep6.png)
 
 --- /task ---
 
-That's the code that should form the basic structure of every shot you take. You don't need to write it again for each shot, just see what went wrong with your last shot and adjust the `speed`{:class="crumbleinputoutput"} or the `move time`{:class="crumblecontrol"}.
+The program that you have just written should form the basic structure of every shot you take. You don't need to write it again for each shot, just adjust the speed or duration of your last shot.
 
 ### Kick-off!
 
 --- task ---
 
-As soon as you have your code, unplug and take your shot. Try and score a goal before your opponent is ready.
+As soon as you have written your program, unplug your Crumble and take your shot. Try to score a goal before your opponent is ready!
 
 Good luck!
 
@@ -152,11 +150,11 @@ Good luck!
 
 --- /task ---
 
-My first shot went very wrong and it is unlikely to go right first time. 
+My first shot went very wrong, but it is unlikely to go right first time. 
 
-My initial turn time was much too long, so I adjust my code and try again. My speeds were often at 100% and that also makes it hard to control. Find a balance between speed to beat your opponent and getting things right.
+My initial turn time was much too long, so I adjusted my code and tried again. The speed was often set to 100%, which also makes it hard to control. Find a balance between speed to beat your opponent and getting things right.
 
-By working out what you need to change to get a better aim, you will soon be getting some great shots in. You don't have to win the match in one shot!
+By working out what you need to change to get a better aim, you will soon make some great shots. You don't have to win the match in one shot!
 
 --- no-print ---
 
