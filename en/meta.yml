@@ -19,4 +19,4 @@ steps:
   - title: "Challenge: create a maze"
     challenge: true
   - title: "Challenge: play 'Crumball'"
- 
+    challenge: true
