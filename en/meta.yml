@@ -12,7 +12,7 @@ steps:
   - title: Wire up your buggy
   - title: Write a test program for the motors
   - title: Control the speed and turns
-  - title: "Challenge: Send your buggy 'there and back again'"
+  - title: "Challenge: send your buggy 'there and back again'"
     challenge: true
   - title: Create a random journey
   - title: Create random journey that is even more random!
