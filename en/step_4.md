@@ -1,4 +1,4 @@
-## Wire up your Crumble buggy
+## Wire up your buggy
 
 First of all, think about some different motors and connectors.
 
