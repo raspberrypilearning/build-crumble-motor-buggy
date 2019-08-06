@@ -1,4 +1,4 @@
-## Write a test program for motors
+## Write a test program for the motors
 
 Before you can start properly coding your motor buggy, you need to gather some information. You can find some of the information by looking at the buggy. To find the other information you need, you will write a test program.
 
