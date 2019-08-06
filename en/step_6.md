@@ -1,4 +1,4 @@
-## Speed and spins
+## Control the speed and turns
 
 You have already learned how to make your motor buggy go forwards and backwards. Now, you will learn about controlling the speed and turning left and right.
 
