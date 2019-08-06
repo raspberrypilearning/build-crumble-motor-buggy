@@ -1,8 +1,8 @@
-## Challenge: There and back again
+## Challenge: send your buggy 'there and back again'
 
-Code your Crumble motor robot buggy to start off in a set place, go forward about 30cm turn around and come back to the starting position.
+Code your Crumble motor robot buggy to start off in a set place, go forwards about 30cm, then turn around and come back to the starting position.
 
-Sounds easy but getting the right timing and speed to turn around 180° might be trickier that you think. You might also find that your buggy does not drive quite as straight as you would like.
+This might sound easy, but it can be difficult to get the right timing and speed to turn around 180°. You might also find that your buggy does not drive quite as straight as you would like.
 
 --- no-print ---
 
@@ -16,13 +16,13 @@ Sounds easy but getting the right timing and speed to turn around 180° might be
 
 --- /print-only ---
 
-Note: The amount of time needed to travel 30cm and to turn 180° might increase as the charge in your batteries gets lower.
+**Note**: The buggy might need longer to travel 30cm and to turn 180° as the charge in the batteries gets lower.
 
 --- hints ---
 
 --- hint ---
 
-Try and write code so that when the `program starts`{:class="crumblebasic"}, `wait a couple of seconds`{:class="crumblecontrol"} and then `turn both motors forwards`{:class="crumbleinputoutput"}, `wait`{:class="crumblecontrol"} until the buggy has travelled about 30cm, then start the `motors turning right`{:class="crumbleinputoutput"} `until`{:class="crumblecontrol"} they have turned 180° (a half turn) then `turn both motors forwards`{:class="crumbleinputoutput"} `until`{:class="crumblecontrol"} the buggy is back in its starting position and `stop both motors`{:class="crumbleinputoutput"}.
+When the `program starts`{:class="crumblebasic"}, it should `wait`{:class="crumblecontrol"} a couple of seconds and then turn both motors `FORWARD`{:class="crumbleinputoutput"}, then `wait`{:class="crumblecontrol"} until the buggy has travelled about 30cm. Then, the motors should turn right until they have turned 180° (a half turn), then both motors should turn `FORWARD`{:class="crumbleinputoutput"} until the buggy is back in its starting position. Then, both motors should `STOP`{:class="crumbleinputoutput"}.
 
 --- /hint ---
 
@@ -38,11 +38,11 @@ Can you rearrange them and alter the wait times to make the code work?
 
 --- hint ---
 
-The code below is correct for the example buggy. Your wait times and speeds might need altering for your specific buggy.
+The code below works for the example buggy. You might need to alter the wait times and speeds for your buggy.
 
 ![There and back challenge code solution](images/thereAndBack_thereAndBackCode_Solution.png)
 
-Click the green 'play' button to see if it works.
+Click the green **Play** button to see if it works.
 
 --- /hint ---
 
