@@ -1,8 +1,6 @@
 ## Challenge: create a maze
 
-This is a fun challenge that you can make as quick or as complex as you like. You can design your maze for one player or for maze can be an individual one or a shared maze where you compete with friends to complete the maze first. You can work with friends to work out how to solve the tricky mathematical challenges that you will come across. 
-
-How much longer does the buggy have to rotate to the right? What would happen if we changed the speed to 65%?
+This is a fun challenge that you can make as quick or as complex as you like. You can design your maze for one player or for a group.
 
 --- task ---
 
