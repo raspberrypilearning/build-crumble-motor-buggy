@@ -2,7 +2,7 @@
 
 First of all, think about some different motors and connectors.
 
-In the Getting started with Crumble project, you learned about connecting DC motors, but the example used an ordinary DC mini motor like the ones that are found in many schools. These generally have very high speeds but low torque, which means that a buggy might run very fast, but the motors would find it really hard to get moving from a stopped position. This is not much use for this project.
+In the Getting started with Crumble project, you learned about connecting DC motors, but the example used an ordinary DC mini motor like the ones that are found in many schools. These generally have very high speeds but low torque, which means that a buggy might run very fast, but the motors would find it really hard to get moving from a stopped position. This is not ideal for this project.
 
 ![A typical DC mini motor](images/wiring_miniMotor.png)
 
@@ -14,11 +14,11 @@ Many of these inexpensive gear motors come with bare positive and negative termi
 
 ![Gear motor bare terminals](images/wiring_gearMotorTerminals.png)
 
-Some gear motors, such as those found in the CamJam EduKit 3 Robotics Kit, have wires already soldered on and shrink-tubed in place. These are much easier to connect and much more robust. These are the motors that you will see in this example build.
+Some gear motors, such as those found in the CamJam EduKit 3 Robotics Kit, have wires already soldered on and held in place by shrink tubing. These are much easier to connect and much more robust. These are the motors that you will see in this example build.
 
 ![Gear motor with wires](images/wiring_gearMotorWires.png)
 
-The best version of all for the Crumble board are the gear motors sold by the makers of Crumble, [Redfern Electronics](https://redfernelectronics.co.uk/product/pair-of-geared-motors/){:target="_blank"}, who make gear motors with crocodile leads already attached. This makes the motors easy to connect, and also makes the wiring easier to understand.
+The best motors for the Crumble board are the gear motors sold by the makers of Crumble, [Redfern Electronics](https://redfernelectronics.co.uk/product/pair-of-geared-motors/){:target="_blank"}, who make gear motors with crocodile leads already attached. This makes the motors easy to connect, and also makes the wiring easier to understand.
 
 ### Connect to the Crumble
 
@@ -38,7 +38,7 @@ Connect a crocodile clip to each of the positive and negative terminals of the m
 
 Connect the other end of these crocodile clips to the positive and negative wires (or terminals) of one of the gear motors. At this stage, it  doesn't matter which gear motor you connect it to, just make sure that the positive and negative wires are both coming from the same motor.
 
-In this example, the Crumble motor 1 connectors are connected to the right-hand gear motor.
+In this example, the Crumble motor 1 connectors are connected to the gear motor on the right-hand side.
 
 ![Positive and negative Crumble to the right-hand motor](images/makeBuggy_crumbleMotorRInput-01.png)
 
@@ -48,7 +48,7 @@ Here's how that might look in the real world:
 
 --- /task ---
 
-**Note**: As in the example, you could attach the right-hand gear motor wires to the right-hand side of the chassis by threading the wire through the side wall and back in. 
+**Note**: As in the example, you could attach the wires of the gear motor on the right-hand side to the right-hand side of the chassis by threading the wires through the side wall and back in. 
 
 ![Right-Hand motor wires threaded through chassis](images/makeBuggy_rightWiresInChassis.png)
 
@@ -56,7 +56,7 @@ This has a few benefits:
 
 + It makes it clear which wires are for which motor
 + It keeps the wires and crocodile clips attached in position and out of the way
-+ It helps to keep the exposed metal parts of wires and crocodile clips away from each other so that they don't touch!
++ It helps to keep the exposed metal parts of wires and crocodile clips away from each other so that they don't touch
 
 On the left-hand side, I have taped the connections with electrical tape to show an alternative way to stop the exposed metal parts of the wires and crocodile clips touching.
 
