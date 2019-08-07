@@ -4,8 +4,8 @@ Before you can start properly coding your motor buggy, you need to gather some i
 
 You will use the test program to find the answers to the following questions:
 + Which motor output controls which gear motor?
-+ When the right gear motor is programmed to go forwards, does the right side of the buggy go forwards or backwards?
-+ When the left gear motor is programmed to go forwards, does the left side of the buggy go forwards or backwards?
++ When the right gear motor is programmed to go forwards, does the right-hand side of the buggy go forwards or backwards?
++ When the left gear motor is programmed to go forwards, does the left-hand side of the buggy go forwards or backwards?
 
 If you use the code block that says `FORWARD`, the buggy does not necessarily move forwards.
 
@@ -18,8 +18,8 @@ The gear motors are not aligned in the same way. The left motor is a mirror imag
 First, check which Crumble motor output is connected to which gear motor. You could either use coding, or follow the wires from the gear motors to see where they lead.
 
 In this example project:
-+ Crumble motor 1 output controls the right-hand gear motor
-+ Crumble motor 2 output controls the left-hand gear motor
++ Crumble motor 1 output controls the gear motor on the right-hand side
++ Crumble motor 2 output controls the gear motor on the left-hand side
 
 --- /task ---
 
@@ -29,11 +29,11 @@ Next, use code to test whether a motor will go forward if it has been programmed
 
 As usual, start your program with a `program start`{:class="crumblebasic"} block.
 
-From the `Input/Output`{:class="crumbleinputoutput"} blocks menu, take a `motor 1 FORWARD at 75%`{:class="crumbleinputoutput"} block and place it under your `program start`{:class="crumblebasic"} block.
+From the **Input/Output** blocks menu, take a `motor 1 FORWARD at 75%`{:class="crumbleinputoutput"} block and place it under your `program start`{:class="crumblebasic"} block.
 
 Duplicate the `motor 1 FORWARD at 75%`{:class="crumbleinputoutput"} block, and toggle the `FORWARD`{:class="crumbleinputoutput"} part until the block reads, `motor 1 STOP`{:class="crumbleinputoutput"}.
 
-Finally, between the two blocks that you have just added, add a `wait 100 milliseconds`{:class="crumblecontrol"} block from the `Control`{:class="crumblecontrol"} blocks menu, and adjust the time to `wait 300 milliseconds`{:class="crumblecontrol"}.
+Finally, between the two blocks that you have just added, add a `wait 100 milliseconds`{:class="crumblecontrol"} block from the **Control** blocks menu, and adjust the time to `wait 300 milliseconds`{:class="crumblecontrol"}.
 
 ![Test code for motor output 1](images/testCode_testCode1.png)
 
