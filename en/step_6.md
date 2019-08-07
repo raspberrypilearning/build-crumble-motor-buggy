@@ -6,7 +6,7 @@ You have already learned how to make your motor buggy go forwards and backwards.
 
 --- task ---
 
-Start with a `program start`{:class="crumblebasic"} block, then add two `motor`{:class="crumbleinputoutput"} blocks, one for `motor 1`{:class="crumbleinputoutput"} and the other for `motor 2`{:class="crumbleinputoutput"}.
+Start with a `program start`{:class="crumblebasic"} block, then add two `motor`{:class="crumbleinputoutput"} blocks: one for `motor 1`{:class="crumbleinputoutput"} and the other for `motor 2`{:class="crumbleinputoutput"}.
 
 Add a `wait`{:class="crumblecontrol"} block and change it to `wait 300 milliseconds`{:class="crumblecontrol"}.
 
@@ -26,7 +26,7 @@ Change the `motor`{:class="crumbleinputoutput"} speed to `50%`{:class="crumblein
 
 --- task ---
 
-Now duplicate the last three blocks and place them at the bopttom of your code. 
+Now, duplicate the last three blocks and place them at the bottom of your code. 
 
 Change the `motor`{:class="crumbleinputoutput"} speed to `25%`{:class="crumbleinputoutput"} and the `wait`{:class="crumblecontrol"} time to `1200 milliseconds`{:class="crumblecontrol"}.
 
@@ -60,7 +60,7 @@ If the change is too quick, make the waiting times longer, then run the program 
 
 ### Set your Crumble free!
 
-While the Crumble is connected to your computer, it is getting continuous power through the USB cable. Turning your battery pack on or off does not turn the Crumble on and off, but when you unplug the USB cable, the code that was last run on your Crumble will run as soon as the battery pack is turned on.
+While the Crumble is connected to your computer, it is getting continuous power through the USB cable. When you unplug the USB cable, the code that was last run on your Crumble will run as soon as the battery pack is turned on.
 
 In this case, the Crumble buggy will start moving forward at slower and slower speeds until, after 2.1 seconds, it stops.
 
