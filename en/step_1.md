@@ -52,7 +52,7 @@ title: What you will learn
 
 + How to connect DC motors to a Crumble controller board
 + How to coordinate two motors to control direction
-+ How to code a pre-programmed buggy 'journey'
++ How to code a preprogrammed buggy 'journey'
 
 --- /collapse ---
 
