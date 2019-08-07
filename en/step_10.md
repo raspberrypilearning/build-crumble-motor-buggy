@@ -10,7 +10,7 @@ Here is an example:
 
 ![Example maze](images/mazeChallenge_example.png)
 
-This example might seem quite easy, but getting your code right takes patience. This one has small passages and only needs right turns. Start with something simple then build on it!
+This example might seem quite easy, but getting your code right takes patience. Start with something simple then build on it!
 
 --- /task ---
 
@@ -73,7 +73,7 @@ Run your program and check that you have the right `motor speed %`{:class="crumb
 
 --- /task ---
 
-You will always start from the beginning of the maze, so mark your starting point clearly so that you always start in exactly the same place and facing exactly the same way.
+You will always start from the beginning of the maze, so mark your starting point clearly so that you always start in exactly the same place, facing exactly the same way.
 
 ![Start location marker](images/mazeChallenge_startLocation.png)
 
