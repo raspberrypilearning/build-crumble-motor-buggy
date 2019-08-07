@@ -4,7 +4,7 @@ Now you are going to code a random journey for your Crumble buggy using the `mot
 
 --- task ---
 
-As always, start with the `program start`{:class="crumblebasic"} block. Add two `motor`{:class="crumbleinputoutput"} blocks, one for `motor 1`{:class="crumbleinputoutput"} and the other for `motor 2`{:class="crumbleinputoutput"}.
+As always, start with the `program start`{:class="crumblebasic"} block. Add two `motor`{:class="crumbleinputoutput"} blocks: one for `motor 1`{:class="crumbleinputoutput"} and the other for `motor 2`{:class="crumbleinputoutput"}.
 
 Add a `wait 100 milliseconds`{:class="crumblecontrol"} block.
 
@@ -44,7 +44,7 @@ Duplicate either of the `random 50 to 80`{:class="crumbleoperators"} blocks, pla
 
 --- /task ---
 
-Before you test the program, you need to add code to `wait`{:class="crumblecontrol"} at the start and `stop`{:class="crumbleinputoutput"} the motors at the end.
+Before you test the program, you need to add code to `wait`{:class="crumblecontrol"} at the start and `STOP`{:class="crumbleinputoutput"} the motors at the end.
 
 --- task ---
 
@@ -104,7 +104,7 @@ Change the `wait`{:class="crumblecontrol"} time to between `100`{:class="crumble
 
 To make a left-hand turn, duplicate the right-hand turn blocks that you have just made, toggle the `motor 1`{:class="crumbleinputoutput"} block to `FORWARD`{:class="crumbleinputoutput"} and the `motor 2`{:class="crumbleinputoutput"} block to `REVERSE`{:class="crumbleinputoutput"}.
 
-Now, join up the sections that cause the buggy to move forward, turn right, and turn left. Leave the `STOP`{:class="crumbleinputoutput"} blocks  to one side.
+Now, join up the sections that cause the buggy to move forward, turn right, and turn left. Leave the `STOP`{:class="crumbleinputoutput"} blocks to one side.
 
 ![Random single run code](images/randomJourney1_codeStep9.png)
 
