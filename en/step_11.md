@@ -1,6 +1,6 @@
 ## Challenge: play 'Crumball'
 
-'Crumball' is like football, but played with Crumbles instead of feet.
+'Crumball' is like football, but you use Crumbles instead of your feet.
 
 The program is like the program in the maze challenge, but it is shorter and has added pressure!
 
@@ -10,13 +10,13 @@ You will code against the clock, or rather, against your opponent. The game is d
 
 As with football, you need a pitch with a goal at each end. The ball starts in the middle and the aim of the game is to knock the ball into the opposite team's goal.
 
-Players always start off in a set position, to the side of their goal facing forwards. The players must write code to score a goal as quickly as they can to beat their opponent. 
+Players always start off in a set position: to the side of their goal, facing forwards. The players must write code to score a goal as quickly as they can to beat their opponent. 
 
 As soon as your code is written and loaded onto your Crumble, you can unplug your Crumble, put your buggy in its set position facing forward, then it will set off.
 
 Once a Crumble is set in motion:
 
-+ Its program must run without being stopped, interrupted or picked up
++ Its program must run without being stopped, interrupted, or picked up
 + As soon as the program has finished running, the Crumble must be removed from the pitch so that it does not block the other player
 + Once the Crumble has been removed, start coding your next shot
 
