@@ -63,7 +63,7 @@ This means that for each `repeat`{:class="crumblecontrol"} cycle, the `direction
 
 The program will be set up as follows:
 + `if`{:class="crumblecontrol"} `direction =`{:class="crumblevariables"} `1`{:class="crumbleoperators"} `then`{:class="crumblecontrol"} `turn right`{:class="crumbleinputoutput"}
-+ `else`{:class="crumblecontrol"}  (i.e.`if`{:class="crumblecontrol"} `direction =`{:class="crumblevariables"} `2`{:class="crumbleoperators"} `then`{:class="crumblecontrol"}) `turn left`{:class="crumbleinputoutput"}
++ `else`{:class="crumblecontrol"}  (i.e.`if`{:class="crumblecontrol"} `direction =`{:class="crumblevariables"} `2`{:class="crumbleoperators"}) `then`{:class="crumblecontrol"}) `turn left`{:class="crumbleinputoutput"}
 
 First, you will ask `if`{:class="crumblecontrol"} `direction =`{:class="crumblevariables"} `1`{:class="crumbleoperators"}.
 
