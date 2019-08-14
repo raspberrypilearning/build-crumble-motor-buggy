@@ -2,9 +2,9 @@ title: Crumble motor buggy
 hero_image: images/banner.png
 description: Create a motor buggy using Crumble
 version: 4
-listed: false
-copyedit: false
-last_tested: "2019-06-26"
+listed: true
+copyedit: true
+last_tested: "2019-08-14"
 steps:
   - title: Introduction
   - title: Design your motor buggy
