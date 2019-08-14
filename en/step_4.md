@@ -20,6 +20,8 @@ Some gear motors, such as those found in the CamJam EduKit 3 Robotics Kit, have 
 
 The best motors for the Crumble board are the gear motors sold by the makers of Crumble, [Redfern Electronics](https://redfernelectronics.co.uk/product/pair-of-geared-motors/){:target="_blank"}, who make gear motors with crocodile leads already attached. This makes the motors easy to connect, and also makes the wiring easier to understand.
 
+![Gear motor with croc leads from Redfern Electronics](images/wiring_crumbleMotor.png)
+
 ### Connect to the Crumble
 
 As in other projects, you will connect the Crumble board to your computer with a micro USB cable, and to a battery pack, or similar power supply, with crocodile clips.
