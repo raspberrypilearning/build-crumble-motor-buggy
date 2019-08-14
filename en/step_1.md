@@ -63,6 +63,6 @@ title: Additional information for educators
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/build-crumble-motor-buggy/print){:target="_blank"}.
 
-[Here is a link to the code solutions for this project](http://rpf.io/p/build-crumble-motor-buggy-get).
+[Here is a link to the code solutions for this project](http://rpf.io/p/en/build-crumble-motor-buggy-get).
 
 --- /collapse ---
