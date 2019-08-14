@@ -1,20 +1,22 @@
-title: build-crumble-motor-buggy
+title: Crumble motor buggy
 hero_image: images/banner.png
-description: build-crumble-motor-buggy description
+description: Create a motor buggy using Crumble
 version: 4
 listed: false
 copyedit: false
 last_tested: "2019-06-26"
 steps:
   - title: Introduction
-  - title: What does a motor buggy look like?
-  - title: Making your buggy
-  - title: Wiring up your Crumble buggy
-  - title: Test code for motors
-  - title: Speed and spins
-  - title: "Challenge: There and back again"
+  - title: Design your motor buggy
+  - title: Make your buggy
+  - title: Wire up your buggy
+  - title: Write a test program for the motors
+  - title: Control the speed and turns
+  - title: "Challenge: send your buggy 'there and back again'"
     challenge: true
-  - title: Random journey 1
-  - title: Random journey 2
-  - title: Code challenge 1 - maze
-  - title: Code challenge 2 - Crumball
+  - title: Create a random journey
+  - title: Create random journey that is even more random!
+  - title: "Challenge: create a maze"
+    challenge: true
+  - title: "Challenge: play 'Crumball'"
+    challenge: true
