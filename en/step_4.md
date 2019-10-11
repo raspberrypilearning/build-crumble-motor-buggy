@@ -30,7 +30,7 @@ As in other projects, you will connect the Crumble board to your computer with a
 
 --- task ---
 
-Connect a crocodile clip to each of the positive and negative terminals of the motor 1 output in the bttom left-hand corner of the Crumble board.
+Connect a crocodile clip to each of the positive and negative terminals of the motor 1 output in the bottom left-hand corner of the Crumble board.
 
 ![Positive and negative Crumble motor 1 connections](images/makeBuggy_crumbleMotor1Output-01.png)
 
