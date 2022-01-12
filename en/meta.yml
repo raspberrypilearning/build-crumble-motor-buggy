@@ -1,23 +1,26 @@
+---
 title: Crumble motor buggy
 hero_image: images/banner.png
 description: Create a motor buggy using Crumble
 version: 5
 listed: true
 copyedit: true
-last_tested: "2019-08-14"
+last_tested: '2019-08-14'
 steps:
-  - title: Introduction
-  - title: Design your motor buggy
-  - title: Make your buggy
-  - title: Wire up your buggy
-  - title: Write a test program for the motors
-  - title: Control the speed and turns
-  - title: "Challenge: send your buggy 'there and back again'"
-    challenge: true
-  - title: Create a random journey
-  - title: Create random journey that is even more random!
-  - title: "Challenge: create a maze"
-    challenge: true
-  - title: "Challenge: play 'Crumball'"
-    challenge: true
-  - title: What next?
+- title: Introduction
+  completion: engaged
+- title: Design your motor buggy
+- title: Make your buggy
+- title: Wire up your buggy
+- title: Write a test program for the motors
+- title: Control the speed and turns
+- title: 'Challenge: send your buggy ''there and back again'''
+  challenge: true
+- title: Create a random journey
+  completion: internal
+- title: Create random journey that is even more random!
+- title: 'Challenge: create a maze'
+  challenge: true
+- title: 'Challenge: play ''Crumball'''
+  challenge: true
+- title: What next?
