@@ -8,17 +8,19 @@ copyedit: true
 last_tested: '2019-08-14'
 steps:
 - title: Introduction
-  completion: engaged
 - title: Design your motor buggy
 - title: Make your buggy
+  completion:
+  - engaged
 - title: Wire up your buggy
 - title: Write a test program for the motors
 - title: Control the speed and turns
 - title: 'Challenge: send your buggy ''there and back again'''
   challenge: true
 - title: Create a random journey
-  completion: internal
 - title: Create random journey that is even more random!
+  completion:
+  - internal
 - title: 'Challenge: create a maze'
   challenge: true
 - title: 'Challenge: play ''Crumball'''
