@@ -11,7 +11,7 @@ If you use the code block that says `FORWARD`, the buggy does not necessarily mo
 
 The gear motors are not aligned in the same way. The left motor is a mirror image of the right motor, which means that if it has been wired up in the same way, i.e. positive to positive and negative to negative, it will make the attached wheel turn in the opposite direction!
 
-![The left motor will turn in the opposite direction to the right motor](images/testCode_mirroredMotors-01.png)
+![Two wheels attached to motors. Arrows show the wheels are turning in opposite directions](images/testCode_mirroredMotors-01.png)
 
 --- task ---
 
@@ -35,19 +35,19 @@ Duplicate the `motor 1 FORWARD at 75%`{:class="crumbleinputoutput"} block, and t
 
 Finally, between the two blocks that you have just added, add a `wait 100 milliseconds`{:class="crumblecontrol"} block from the **Control** blocks menu, and adjust the time to `wait 300 milliseconds`{:class="crumblecontrol"}.
 
-![Test code for motor output 1](images/testCode_testCode1.png)
+![Blocks of code showing the finished code created from the above text](images/testCode_testCode1.png)
 
 When you run the program, the motor on the right-hand side (in this example) should either move forwards or backwards.
 
 --- no-print ---
 
-![Running test code 1](images/testCode_runningTestCode1.gif)
+![Animation showing a buggy turning to the right](images/testCode_runningTestCode1.gif)
 
 --- /no-print ---
 
 --- print-only ---
 
-![Running test code 1](images/testCode_runningTestCode1.png)
+![A buggy with an arrow pointing backwards from the right wheel](images/testCode_runningTestCode1.png)
 
 --- /print-only ---
 
@@ -59,19 +59,19 @@ Since the `motor 1 FORWARD` block makes the motor on the right-hand side go back
 
 Toggle the `FORWARD`{:class="crumbleinputoutput"} part of the first `motor`{:class="crumbleinputoutput"} block until the block reads `motor 1 REVERSE at 75%`{:class="crumbleinputoutput"}.
 
-![Test code 2 for motor output 1](images/testCode_testCode2.png)
+![Blocks of code as edited from the above instructions](images/testCode_testCode2.png)
 
 Now, run the program to check that the motor runs in the opposite direction, i.e. forwards.
 
 --- no-print ---
 
-![Running test code 2](images/testCode_runningTestCode2.gif)
+![Animation showing a buggy turning to the left](images/testCode_runningTestCode2.gif)
 
 --- /no-print ---
 
 --- print-only ---
 
-![Running test code 2](images/testCode_runningTestCode2.png)
+![A buggy with an arrow pointing forwards from the right wheel](images/testCode_runningTestCode2.png)
 
 --- /print-only ---
 
@@ -81,7 +81,7 @@ As long as you remember that `FORWARD`{:class="crumbleinputoutput"} means 'backw
 
 Whether the motors go one way or another is simply a matter of polarity. In other words, it is a matter of which way round the positive and negative wires are connected. In the case of the motors, this is not important, so in this example, I will swap the positive and negative wires around. I could do this anywhere in the circuit, but I will do it where the crocodile clips meet the gear motor wires.
 
-![Reversing the right motor polarity](images/testCode_crumbleMotorRReversePolarity-01.png)
+![A crumble connected to two motors by crocodile clips. For the right motor, the clip connected to the Crumble's negative output for motor 1 is connected to the right motor's positive wire and the Crumble's positive output for motor 1 is connected to the right motor's negative wire](images/testCode_crumbleMotorRReversePolarity-01.png)
 
 **WARNING**: It is safe to reverse the polarity on these gear motors but in other situations, reversing the positive and negative polarity can damage components.
 
@@ -91,13 +91,13 @@ Run your last code, `motor 1 REVERSE`{:class="crumbleinputoutput"}, again to see
 
 --- no-print ---
 
-![Running test code 2 again](images/testCode_runningTestCode2b.gif)
+![Animation showing a buggy turning to the right](images/testCode_runningTestCode2b.gif)
 
 --- /no-print ---
 
 --- print-only ---
 
-![Running test code 2 again](images/testCode_runningTestCode2b.png)
+![A buggy with an arrow pointing backwards from the right wheel](images/testCode_runningTestCode2b.png)
 
 --- /print-only ---
 
@@ -111,19 +111,19 @@ Toggle the `1`{:class="crumbleinputoutput"} part of both `motor`{:class="crumble
 
 Then, toggle the `REVERSE`{:class="crumbleinputoutput"} part of the first `motor`{:class="crumbleinputoutput"} block until the block reads `motor 2 FORWARD at 75%`{:class="crumbleinputoutput"}.
 
-![Test code 3 for motor output 2](images/testCode_testCode3.png)
+![Blocks of code as edited from the above instructions](images/testCode_testCode3.png)
 
 Run the program.
 
 --- no-print ---
 
-![Running test code 3](images/testCode_runningTestCode3.gif)
+![Animation showing a buggy turning to the right](images/testCode_runningTestCode3.gif)
 
 --- /no-print ---
 
 --- print-only ---
 
-![Running test code 3](images/testCode_runningTestCode3.png)
+![A buggy with an arrow pointing forwards from the left wheel](images/testCode_runningTestCode3.png)
 
 --- /print-only ---
 
@@ -144,19 +144,19 @@ Now, write a program to check.
 
 Duplicate the `motor`{:class="crumbleinputoutput"} and `wait`{:class="crumblecontrol"} blocks as needed to write a program that tells motors `1` and `2`{:class="crumbleinputoutput"} to go `FORWARD`{:class="crumbleinputoutput"}, then `wait for 0.3 seconds`{:class="crumblecontrol"}, then tells both motors to `REVERSE`{:class="crumbleinputoutput"}, then `wait for 0.3 seconds`{:class="crumblecontrol"} again before both motors `STOP`{:class="crumbleinputoutput"}.
 
-![Test code 4 for both motors](images/testCode_testCode4.png)
+![Blocks of code as edited from the above instructions](images/testCode_testCode4.png)
 
 Run the program.
 
 --- no-print ---
 
-![Running test code 3](images/testCode_runningTestCode4.gif)
+![Animation showing a buggy turning to the right](images/testCode_runningTestCode4.gif)
 
 --- /no-print ---
 
 --- print-only ---
 
-![Running test code 3](images/testCode_runningTestCode4.png)
+![A buggy with an arrow pointing forwards from the front of the buggy to show its direction of travel](images/testCode_runningTestCode4.png)
 
 --- /print-only ---
 
